@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import './App.css'
+import HomePage from './Pages/HomePage'
+import ProductDetailPage from './Pages/ProductDetailPage'
+import ProductsPage from './Pages/ProductsPage'
+import AuthenticityPage from './Pages/AuthenticityPage'
+import BenifitsPage from './Pages/BenifitsPage'
+import AboutPage from './Pages/AboutPage'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Routes>
+        <Route exact path='/' element={<HomePage />}></Route>
+        <Route exact path='/products' element={<ProductsPage />}></Route>
+        <Route exact path='/about' element={<AboutPage />}></Route>
+        <Route exact path='/benifits' element={<BenifitsPage />}></Route>
+        <Route
+          exact
+          path='/authenticity'
+          element={<AuthenticityPage />}
+        ></Route>
+        <Route
+          exact
+          path='/injectables/:id'
+          element={<ProductDetailPage type='injectables' />}
+        ></Route>
+        <Route
+          exact
+          path='/peptides/:id'
+          element={<ProductDetailPage type='peptides' />}
+        ></Route>
+        <Route
+          exact
+          path='/orals/:id'
+          element={<ProductDetailPage type='orals' />}
+        ></Route>
+      </Routes>
+    </Router>
+  )
 }
 
-export default App;
+export default App
