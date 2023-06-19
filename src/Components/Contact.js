@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import axios from 'axios'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
   const [formStatus, setFormStatus] = useState('Send')
@@ -13,18 +13,14 @@ const Contact = () => {
       message: message.value,
     }
     console.log(conFom)
-    // axios({
-    //   method: 'POST',
-    //   url: 'http://localhost:3002/send',
-    //   data: conFom,
-    // }).then((response) => {
-    //   if (response.data.status === 'success') {
-    //     alert('Message Sent.')
-    //     setFormStatus('Sent')
-    //   } else if (response.data.status === 'fail') {
-    //     alert('Message failed to send.')
-    //   }
-    // })
+
+    emailjs.send(
+      'service_bhx210k',
+      'template_abdis1d',
+      conFom,
+      '9ar79VyzGfuTKmXF3'
+    )
+    
   }
   return (
     <div className='box' id='contact'>
