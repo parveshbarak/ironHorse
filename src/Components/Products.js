@@ -5,32 +5,34 @@ import { injectables, peptides, orals } from '../seeder'
 const Injectables = ({ display }) => {
   return (
     <React.Fragment>
-    <section
-      className='products'
-      id='injectables'
-      style={{ display: `${display}` }}
-    >
-      <h1 className='heading'>
-        <span>injectables</span>
-      </h1>
-      <div className='box-container'>
-        {injectables.map((injectable) => (
-          <div className='box'>
-            <img src={injectable.image} alt='' />
-            <div className='content'>
-              <span>ironHorse orignal</span>
-              <h3>{injectable.heading}</h3>
-              <div className='share'>
-                <Link to={`/injectables/${injectable.id}`} className='injectables'>
-                  show details
-                </Link>
+      <section
+        className='products'
+        id='injectables'
+        style={{ display: `${display}` }}
+      >
+        <h1 className='heading'>
+          <span>injectables</span>
+        </h1>
+        <div className='box-container'>
+          {injectables.map((injectable) => (
+            <div className='box'>
+              <img src={injectable.image} alt='' />
+              <div className='content'>
+                <span>ironHorse orignal</span>
+                <h3>{injectable.heading}</h3>
+                <div className='share'>
+                  <Link
+                    to={`/injectables/${injectable.id}`}
+                    className='injectables'
+                  >
+                    show details
+                  </Link>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
-    </section>
-
+          ))}
+        </div>
+      </section>
     </React.Fragment>
   )
 }
@@ -54,7 +56,7 @@ const Peptides = ({ display }) => {
               <span>ironHorse orignal</span>
               <h3>{peptide.heading}</h3>
               <div className='share'>
-                <Link to={`/peptides/${peptides.id}`} className='injectables'>
+                <Link to={`/peptides/${peptide.id}`} className='injectables'>
                   show details
                 </Link>
               </div>
@@ -81,7 +83,7 @@ const Orals = ({ display }) => {
               <span>ironHorse orignal</span>
               <h3>{oral.heading}</h3>
               <div className='share'>
-                <Link to={`/orals/${orals.id}`} className='injectables'>
+                <Link to={`/orals/${oral.id}`} className='injectables'>
                   show details
                 </Link>
               </div>
@@ -98,17 +100,17 @@ const Products = () => {
   const [peptides, setPeptides] = useState(false)
   const [orals, setOrals] = useState(false)
   const showInjectables = () => {
-    setInjectables((current) => !current)
+    setInjectables(true)
     setPeptides(false)
     setOrals(false)
   }
   const showPeptides = () => {
-    setPeptides((current) => !current)
+    setPeptides(true)
     setInjectables(false)
     setOrals(false)
   }
   const showOrals = () => {
-    setOrals((current) => !current)
+    setOrals(true)
     setPeptides(false)
     setInjectables(false)
   }
