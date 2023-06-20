@@ -20,6 +20,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "homepage": "http://parveshbarak.github.io/ironHorse",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -42,7 +45,9 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "server.js",
   "keywords": [],
