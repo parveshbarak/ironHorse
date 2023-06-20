@@ -7,6 +7,7 @@ import ProductsPage from './Pages/ProductsPage'
 import AuthenticityPage from './Pages/AuthenticityPage'
 import BenifitsPage from './Pages/BenifitsPage'
 import AboutPage from './Pages/AboutPage'
+import { ToastContainer } from 'react-toastify'
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
           element={<ProductDetailPage type='orals' />}
         ></Route>
       </Routes>
+      <ToastContainer/>
     </Router>
   )
 }
