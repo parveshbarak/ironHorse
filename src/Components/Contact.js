@@ -7,8 +7,10 @@ const Contact = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
+  const [button, setButton] = useState('Send')
   const onSubmit = (e) => {
     e.preventDefault()
+    setButton('Sending..')
     const { name, email, message } = e.target.elements
     let conFom = {
       user_name: name.value,
@@ -32,6 +34,7 @@ const Contact = () => {
           setName('')
           setEmail('')
           setMessage('')
+          setButton('Send')
         },
         (error) => {
           console.log(error.text)
@@ -71,7 +74,7 @@ const Contact = () => {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
-        <input type='submit' value='Send' className='btn' />
+        <input type='submit' value={button} className='btn' />
       </form>
     </div>
   )
