@@ -14,16 +14,20 @@ const ProductDetail = ({ type, id }) => {
       <div className='box-container'>
         <div className='box box1'>
           <img src={`../`+arr[id-1].image} alt='' />
+          <p>Here we will print Id of the product :- {id} </p>
         </div>
         <div className='box box2'>
           <div className='content'>
-            <span>ironHorse orignal</span>
-            <h3>{type}</h3>
-            <p>Here we will print Id of the product :- {id} </p>
-            <p>Here we will print Id of the product :- {id} </p>
-            <p>Here we will print Id of the product :- {id} </p>
-            <p>Here we will print Id of the product :- {id} </p>
-            <p>Lorem</p>
+            <h3>{arr[id-1].heading}</h3>
+            <span>{arr[id-1].description}</span>
+            <div className="detail">
+            {arr[id-1].detail.map((d) => {
+              return(<div className="d">
+              <h3>{d.heading}</h3>
+              <p>{d.description}</p>
+              </div>)
+            })}
+            </div>
           </div>
         </div>
       </div>
