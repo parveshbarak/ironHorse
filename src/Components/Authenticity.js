@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Authenticity = () => {
+  const [code, setCode] = useState('')
+  const onSubmit = (e) => {
+    e.preventDefault()
+    console.log(code)
+  }
   return (
     <section className='aunthenticity' id='aunthenticity'>
       <div className='information'>
@@ -25,17 +30,19 @@ const Authenticity = () => {
         </div>
         <div className='price'>Enter Auth Code</div>
         <div className='form'>
-          <input
-            type='string'
-            name=''
-            className='code'
-            placeholder='enter Auth code from Box'
-            id=''
-          />
+          <form onSubmit={onSubmit}>
+            <input
+              type='string'
+              name='code'
+              className='code'
+              placeholder='enter Auth code'
+              id='code'
+              value={code}
+              onChange={(e) => setCode(e.target.value)}
+            />
+            <input type='submit' value='Check' className='btn' />
+          </form>
         </div>
-        <Link to='#' className='btn'>
-          Check
-        </Link>
       </div>
     </section>
   )

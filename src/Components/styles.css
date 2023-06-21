@@ -483,6 +483,12 @@
   font-size: large;
 }
 
+.aunthenticity .plan .form .btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /** Product Styling **/
 
 .products .box-container {
