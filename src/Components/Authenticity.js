@@ -1,11 +1,30 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import { addDoc, collection, getDocs, getDoc, doc } from '@firebase/firestore'
+import { firestore } from '../firebase'
 
 const Authenticity = () => {
   const [code, setCode] = useState('')
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault()
-    console.log(code)
+    console.log('code', code)
+    // const ref = collection(firestore, 'authCodes')
+    const ref2 = doc(firestore, 'authCodes', 'Hello1')
+    // let data = {
+    //   code: code,
+    // }
+    // try {
+    //   addDoc(ref, data)
+    //   console.log('data', data)
+    // } catch (err) {
+    //   console.log(err)
+    // }
+    // const docSnap = await getDocs(ref)
+    // docSnap.forEach((doc) => {
+    //   console.log('doc.data()', doc.data())
+    // })
+
+    const snap = await getDoc(ref2)
+    console.log('snap', snap.data())
   }
   return (
     <section className='aunthenticity' id='aunthenticity'>
