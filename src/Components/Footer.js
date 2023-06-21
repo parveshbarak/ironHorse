@@ -46,7 +46,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <Contact/>
+          <Contact />
         </div>
       </section>
 

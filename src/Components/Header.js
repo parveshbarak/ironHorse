@@ -22,12 +22,24 @@ const Header = () => {
       ></div>
 
       <nav className={isClicked ? 'navbar active' : 'navbar'}>
-        <Link to='/'>home</Link>
-        <Link to='/about'>about</Link>
-        <Link to='/benifits'>benifits</Link>
-        <Link to='/authenticity'>aunthenticity</Link>
-        <a href='#contact'>conatct us</a>
-        <Link to='/products'>products</Link>
+        <Link to='/' onClick={menuClick}>
+          home
+        </Link>
+        <Link to='/about' onClick={menuClick}>
+          about
+        </Link>
+        <Link to='/benifits' onClick={menuClick}>
+          benifits
+        </Link>
+        <Link to='/authenticity' onClick={menuClick}>
+          aunthenticity
+        </Link>
+        <a href='#contact' onClick={menuClick}>
+          conatct us
+        </a>
+        <Link to='/products' onClick={menuClick}>
+          products
+        </Link>
       </nav>
     </header>
   )
