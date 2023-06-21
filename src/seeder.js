@@ -25,11 +25,6 @@ export const injectables = [
         description:
           'Do not administer to people with cancer. Do not administer virilizing risks to women.',
       },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: TESTO-C 350, DECA 300, CLENBU 40, CLENBURINE 15.04, ARIDEX 1.',
-      },
     ],
   },
   {
@@ -58,11 +53,6 @@ export const injectables = [
         description:
           'Do not administer to people with cancer. Do not administer virilizing risks to women.',
       },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: TESTO-C 350, DECA 300, CLENBU 40, CLENBURINE 15.04, ARIDEX 1.',
-      },
     ],
   },
   {
@@ -90,11 +80,6 @@ export const injectables = [
         heading: 'Contraindications:',
         description:
           'Do not administer to people with cancer. Do not administer virilizing risks to women.',
-      },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: TESTO-C 350, DECA 300, CLENBU 40, CLENBURINE 15.04, ARIDEX 1.',
       },
     ],
   },
@@ -156,10 +141,6 @@ export const injectables = [
         description:
           'Do not administer to people with cancer. Do not administer virilizing risks to women.',
       },
-      {
-        heading: 'Combinations:',
-        description: 'Men: SUSTA 350, OXARINE 30, OXY 50, WINSDROL 65.',
-      },
     ],
   },
   {
@@ -187,11 +168,6 @@ export const injectables = [
         heading: 'Contraindications:',
         description:
           'Do not administer to people with cancer. Do not administer virilizing risks to women.',
-      },
-      {
-        heading: 'Combinations:',
-        description:
-          'Women: WINNY PRO 100, PRIMO 100. Men: SUSTA 350, WINSDROL 65, CLENBUTEROL 40.',
       },
     ],
   },
@@ -221,11 +197,6 @@ export const injectables = [
         description:
           'Do not administer to people with cancer. Do not administer virilizing risks to women.',
       },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: BOLDENON 300, PRIMO 100, CLENBURINE 15.04, ARIDEX 1.',
-      },
     ],
   },
   {
@@ -253,11 +224,6 @@ export const injectables = [
         heading: 'Contraindications:',
         description: 'Do not administer to people with cancer.',
       },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: SUSTA 350, LIGANDROLONE 35, MASS PRO 600, MASTERON 100, OXARINE 30. Women: CARDARINE 10, OXARINE 30, CLENBUTEROL 40.',
-      },
     ],
   },
   {
@@ -284,11 +250,6 @@ export const injectables = [
       {
         heading: 'Contraindications:',
         description: 'Do not administer to people with cancer.',
-      },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: SUSTA 350, LIGANDROLONE 35, MASS PRO 600, MASTERON 100, OXARINE 30. Women: CARDARINE 10, OXARINE 30, CLENBUTEROL 40.',
       },
     ],
   },
@@ -319,11 +280,6 @@ export const injectables = [
         description:
           'Do not administer to people with cancer. Do not administer virilizing risks to women.',
       },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: SUSTA 350, CLENBUTEROL 40, WINNY PRO 100, CARDARINE 10.',
-      },
     ],
   },
   {
@@ -351,11 +307,6 @@ export const injectables = [
         heading: 'Contraindications:',
         description:
           'Do not administer to people with cancer. Do not administer virilizing risks to women.',
-      },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: PROVY 25, OXARINE 30, DECA 300, WINSDROL 65, ARIDEX 1.',
       },
     ],
   },
@@ -385,11 +336,6 @@ export const injectables = [
         description:
           'Do not administer to people with cancer. Do not administer virilizing risks to women.',
       },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: PROVY 25, OXARINE 30, DECA 300, WINSDROL 65, ARIDEX 1.',
-      },
     ],
   },
   {
@@ -417,11 +363,6 @@ export const injectables = [
         heading: 'Contraindications:',
         description:
           'Do not administer to people with cancer. Do not administer virilizing risks to women.',
-      },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: PROVY 25, OXARINE 30, DECA 300, WINSDROL 65, ARIDEX 1.',
       },
     ],
   },
@@ -451,11 +392,6 @@ export const injectables = [
         description:
           'Do not administer to people with cancer. Do not administer virilizing risks to women.',
       },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: PROVY 25, OXARINE 30, DECA 300, WINSDROL 65, ARIDEX 1.',
-      },
     ],
   },
   {
@@ -484,11 +420,6 @@ export const injectables = [
         description:
           'Do not administer to people with cancer. Do not administer virilizing risks to women.',
       },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: PROVY 25, OXARINE 30, DECA 300, WINSDROL 65, ARIDEX 1.',
-      },
     ],
   },
 ]
@@ -497,7 +428,7 @@ export const peptides = [
   {
     id: 1,
     image: 'images/prod2.png',
-    heading: 'peptides',
+    heading: 'GHRP-2 5mg *5 vial ',
     detail: [
       {
         heading: 'TESTPRO (TESTOSTERONE PROPIONATE) - 100MG/ML',
@@ -528,7 +459,7 @@ export const peptides = [
   {
     id: 2,
     image: 'images/prod2.png',
-    heading: 'peptides',
+    heading: 'GHRP-6 5mg*5  vial ',
     detail: [
       {
         heading: 'TESTPRO (TESTOSTERONE PROPIONATE) - 100MG/ML',
@@ -559,7 +490,7 @@ export const peptides = [
   {
     id: 3,
     image: 'images/prod2.png',
-    heading: 'peptides',
+    heading: 'IGF-1LR3 100mcg *5 vial ',
     detail: [
       {
         heading: 'TESTPRO (TESTOSTERONE PROPIONATE) - 100MG/ML',
@@ -590,7 +521,7 @@ export const peptides = [
   {
     id: 4,
     image: 'images/prod2.png',
-    heading: 'peptides',
+    heading: 'HGH fragment (176-191) 2mg *5 vial ',
     detail: [
       {
         heading: 'TESTPRO (TESTOSTERONE PROPIONATE) - 100MG/ML',
@@ -621,7 +552,100 @@ export const peptides = [
   {
     id: 5,
     image: 'images/prod2.png',
-    heading: 'peptides',
+    heading: 'HGH -somatropin (3.33mg ) 10iu *5 vials ',
+    detail: [
+      {
+        heading: 'TESTPRO (TESTOSTERONE PROPIONATE) - 100MG/ML',
+        description:
+          'An ideal testosterone for volume and definition cycles. With good muscle gains for beginners and advanced. With a maximum duration of 2 days in the body.',
+      },
+      {
+        heading: 'Recommendations for use:',
+        description: '250 mg – 450 mg per week in men.',
+      },
+      {
+        heading: 'Benefits',
+        description:
+          'Muscle increase.  Strength increase.  Ideal in definition stages',
+      },
+      {
+        heading: 'Contraindications:',
+        description:
+          'Do not administer to people with cancer. Do not administer virilizing risks to women.',
+      },
+      {
+        heading: 'Combinations:',
+        description:
+          'Men: TESTO-C 350, DECA 300, CLENBU 40, CLENBURINE 15.04, ARIDEX 1.',
+      },
+    ],
+  },
+  {
+    id: 6,
+    image: 'images/prod2.png',
+    heading: 'IGF - 1  DES 100mcg*5 vials',
+    detail: [
+      {
+        heading: 'TESTPRO (TESTOSTERONE PROPIONATE) - 100MG/ML',
+        description:
+          'An ideal testosterone for volume and definition cycles. With good muscle gains for beginners and advanced. With a maximum duration of 2 days in the body.',
+      },
+      {
+        heading: 'Recommendations for use:',
+        description: '250 mg – 450 mg per week in men.',
+      },
+      {
+        heading: 'Benefits',
+        description:
+          'Muscle increase.  Strength increase.  Ideal in definition stages',
+      },
+      {
+        heading: 'Contraindications:',
+        description:
+          'Do not administer to people with cancer. Do not administer virilizing risks to women.',
+      },
+      {
+        heading: 'Combinations:',
+        description:
+          'Men: TESTO-C 350, DECA 300, CLENBU 40, CLENBURINE 15.04, ARIDEX 1.',
+      },
+    ],
+  },
+  {
+    id: 7,
+    image: 'images/prod2.png',
+    heading: 'CJC-1295 (with DAC) 2mg*5 vials',
+    detail: [
+      {
+        heading: 'TESTPRO (TESTOSTERONE PROPIONATE) - 100MG/ML',
+        description:
+          'An ideal testosterone for volume and definition cycles. With good muscle gains for beginners and advanced. With a maximum duration of 2 days in the body.',
+      },
+      {
+        heading: 'Recommendations for use:',
+        description: '250 mg – 450 mg per week in men.',
+      },
+      {
+        heading: 'Benefits',
+        description:
+          'Muscle increase.  Strength increase.  Ideal in definition stages',
+      },
+      {
+        heading: 'Contraindications:',
+        description:
+          'Do not administer to people with cancer. Do not administer virilizing risks to women.',
+      },
+      {
+        heading: 'Combinations:',
+        description:
+          'Men: TESTO-C 350, DECA 300, CLENBU 40, CLENBURINE 15.04, ARIDEX 1.',
+      },
+    ],
+  },
+  {
+    id: 8,
+    image: 'images/prod2.png',
+    heading: 'Ipamorelin 2mg*5 vial',
     detail: [
       {
         heading: 'TESTPRO (TESTOSTERONE PROPIONATE) - 100MG/ML',
@@ -655,155 +679,96 @@ export const orals = [
   {
     id: 1,
     image: 'images/prod3.png',
-    heading: 'orals',
+    heading: 'Anavar 10mg ',
+    description: 'An ideal anabolic for consumption by women seeking muscle mass quickly without virilizing side effects. It is also used by men, beginners or intermediates, who are looking for lean gains or who are in the cutting stages, because it does not stimulate fluid retention.',
     detail: [
       {
-        heading: 'TESTPRO (TESTOSTERONE PROPIONATE) - 100MG/ML',
-        description:
-          'An ideal testosterone for volume and definition cycles. With good muscle gains for beginners and advanced. With a maximum duration of 2 days in the body.',
+        heading: 'Anavar 10mg ',
+        description: 'An ideal anabolic for consumption by women seeking muscle mass quickly without virilizing side effects. It is also used by men, beginners or intermediates, who are looking for lean gains or who are in the cutting stages, because it does not stimulate fluid retention.',
       },
       {
-        heading: 'Recommendations for use:',
-        description: '250 mg – 450 mg per week in men.',
-      },
-      {
-        heading: 'Benefits',
-        description:
-          'Muscle increase.  Strength increase.  Ideal in definition stages',
-      },
-      {
-        heading: 'Contraindications:',
-        description:
-          'Do not administer to people with cancer. Do not administer virilizing risks to women.',
-      },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: TESTO-C 350, DECA 300, CLENBU 40, CLENBURINE 15.04, ARIDEX 1.',
+        heading: 'Dosage',
+        description: 'Women: 10 mg daily. Men: 10mg – 30mg daily.',
       },
     ],
   },
   {
     id: 2,
     image: 'images/prod3.png',
-    heading: 'orals',
+    heading: 'Dianabol 10',
+    description:'It is an anabolic that has twice the capacity of testosterone to increase muscle mass. Increases the storage of creatine and consequently of intracellular fluids.',
     detail: [
       {
-        heading: 'TESTPRO (TESTOSTERONE PROPIONATE) - 100MG/ML',
-        description:
-          'An ideal testosterone for volume and definition cycles. With good muscle gains for beginners and advanced. With a maximum duration of 2 days in the body.',
+        heading: 'Methandienone 10 mg',
+        description:'It is an anabolic that has twice the capacity of testosterone to increase muscle mass. Increases the storage of creatine and consequently of intracellular fluids.',
       },
       {
-        heading: 'Recommendations for use:',
-        description: '250 mg – 450 mg per week in men.',
-      },
-      {
-        heading: 'Benefits',
-        description:
-          'Muscle increase.  Strength increase.  Ideal in definition stages',
-      },
-      {
-        heading: 'Contraindications:',
-        description:
-          'Do not administer to people with cancer. Do not administer virilizing risks to women.',
-      },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: TESTO-C 350, DECA 300, CLENBU 40, CLENBURINE 15.04, ARIDEX 1.',
+        heading: 'Dosage',
+        description: 'Men 10mg Daily',
       },
     ],
   },
   {
     id: 3,
     image: 'images/prod3.png',
-    heading: 'orals',
+    heading: 'Stanazol 10mg ',
+    description:'It is ideal for use in women, since it does not have androgenic effects. You can use it for volume or muscle definition. Promotes rapid increase in muscle mass. Men use it because it has a low impact on the prostate, and it has a low capacity to produce estrogen.',
     detail: [
       {
-        heading: 'TESTPRO (TESTOSTERONE PROPIONATE) - 100MG/ML',
-        description:
-          'An ideal testosterone for volume and definition cycles. With good muscle gains for beginners and advanced. With a maximum duration of 2 days in the body.',
+        heading: 'Stanazol 10mg ',
+        description:'It is ideal for use in women, since it does not have androgenic effects. You can use it for volume or muscle definition. Promotes rapid increase in muscle mass. Men use it because it has a low impact on the prostate, and it has a low capacity to produce estrogen.',
       },
       {
-        heading: 'Recommendations for use:',
-        description: '250 mg – 450 mg per week in men.',
-      },
-      {
-        heading: 'Benefits',
-        description:
-          'Muscle increase.  Strength increase.  Ideal in definition stages',
-      },
-      {
-        heading: 'Contraindications:',
-        description:
-          'Do not administer to people with cancer. Do not administer virilizing risks to women.',
-      },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: TESTO-C 350, DECA 300, CLENBU 40, CLENBURINE 15.04, ARIDEX 1.',
+        heading: 'Dosage',
+        description: 'Women: 25 mg daily.Men: 50 mg daily.',
       },
     ],
   },
   {
     id: 4,
     image: 'images/prod3.png',
-    heading: 'orals',
+    heading: 'Cytomel- T3 25 mcg',
+    description:'This is not an-anabolic steroid but a thyroid hormone. Bodybuilders are particularly attracted to this drug for its ability to burn off body excess fat. Most often utilized during contest preparation, one can greatly decrease the amount of stored fat without being forced to severely restrict calories. To this end Cytomex T350 is commonly used in conjunction with Clenbuterol and can produce extremely dramatic results. This combination has become very popular in recent years, no doubt responsible for many "ripped" on-stage physiques. It is also noted by many that when thyroid hormones are taken in conjunction with steroids, an increased anabolic effect can be seen (noticeably greater than if the steroids are used alone)',
     detail: [
       {
-        heading: 'TESTPRO (TESTOSTERONE PROPIONATE) - 100MG/ML',
-        description:
-          'An ideal testosterone for volume and definition cycles. With good muscle gains for beginners and advanced. With a maximum duration of 2 days in the body.',
+        heading: 'Cytomel -T3 25 mcg',
+        description:'This is not an-anabolic steroid but a thyroid hormone. Bodybuilders are particularly attracted to this drug for its ability to burn off body excess fat. Most often utilized during contest preparation, one can greatly decrease the amount of stored fat without being forced to severely restrict calories. To this end Cytomex T350 is commonly used in conjunction with Clenbuterol and can produce extremely dramatic results. This combination has become very popular in recent years, no doubt responsible for many "ripped" on-stage physiques. It is also noted by many that when thyroid hormones are taken in conjunction with steroids, an increased anabolic effect can be seen (noticeably greater than if the steroids are used alone)',
       },
       {
-        heading: 'Recommendations for use:',
-        description: '250 mg – 450 mg per week in men.',
-      },
-      {
-        heading: 'Benefits',
-        description:
-          'Muscle increase.  Strength increase.  Ideal in definition stages',
-      },
-      {
-        heading: 'Contraindications:',
-        description:
-          'Do not administer to people with cancer. Do not administer virilizing risks to women.',
-      },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: TESTO-C 350, DECA 300, CLENBU 40, CLENBURINE 15.04, ARIDEX 1.',
+        heading: 'Dosage',
+        description: 'Men and women  :  25mcg to 50 mcg',
       },
     ],
   },
   {
     id: 5,
     image: 'images/prod3.png',
-    heading: 'orals',
+    heading: 'Anadrol 50 mg',
+    description:'Especially for men in the volume stage, ideal for increasing muscle mass, because it retains fluids due to the accumulation of creatine in the muscle, which generates power, hydration and recovery of muscle tissue',
     detail: [
       {
-        heading: 'TESTPRO (TESTOSTERONE PROPIONATE) - 100MG/ML',
-        description:
-          'An ideal testosterone for volume and definition cycles. With good muscle gains for beginners and advanced. With a maximum duration of 2 days in the body.',
+        heading: 'Anadrol 50 mg',
+        description:'Especially for men in the volume stage, ideal for increasing muscle mass, because it retains fluids due to the accumulation of creatine in the muscle, which generates power, hydration and recovery of muscle tissue',
       },
       {
-        heading: 'Recommendations for use:',
-        description: '250 mg – 450 mg per week in men.',
+        heading: 'Dosage',
+        description: 'Men: 50 mg – 100 mg daily.',
+      },
+    ],
+  },
+  {
+    id: 6,
+    image: 'images/prod3.png',
+    heading: 'Clenbuterol 40mcg ',
+    description:'It favors the oxidation of fat and promotes the increase in muscle mass.',
+    detail: [
+      {
+        heading: 'Clenbuterol 40 mcg.',
+        description:'It favors the oxidation of fat and promotes the increase in muscle mass.',
       },
       {
-        heading: 'Benefits',
-        description:
-          'Muscle increase.  Strength increase.  Ideal in definition stages',
-      },
-      {
-        heading: 'Contraindications:',
-        description:
-          'Do not administer to people with cancer. Do not administer virilizing risks to women.',
-      },
-      {
-        heading: 'Combinations:',
-        description:
-          'Men: TESTO-C 350, DECA 300, CLENBU 40, CLENBURINE 15.04, ARIDEX 1.',
+        heading: 'Dosage',
+        description: 'Men and women: 40 mg – 80 mcg per day.',
       },
     ],
   },
