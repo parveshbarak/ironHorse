@@ -24,7 +24,9 @@ const ProductDetail = ({ type, id }) => {
             {arr[id-1].detail.map((d) => {
               return(<div className="d">
               <h3>{d.heading}</h3>
-              <p>{d.description}</p>
+              <div>{d.description.map((ad) => {
+                return(<p>{ad}</p>)
+              })}</div>
               </div>)
             })}
             </div>
