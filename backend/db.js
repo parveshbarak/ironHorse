@@ -1,10 +1,6 @@
 const { MongoClient } = require('mongodb')
 
 let dbConnection
-const username = 'dbUser123'
-const password = 'dbUser123'
-const cluster = 'authCodes'
-const dbname = 'ironHorse'
 
 module.exports = {
   connectToDb: (cb) => {
