@@ -35,10 +35,7 @@ const Authenticity = () => {
             We care about you and want you to consume only authentic product
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsa
-            esse temporibus eaque illo voluptatem nostrum, at, quo nobis numquam
-            aspernatur sunt fugiat veritatis dolorum hic tempora fugit
-            consectetur officia?
+            Scratch the Box and enter the code from box in the below field to check if your product is an ironhorse orignal or not!
           </p>
         </div>
         <div className='price'>Enter Auth Code</div>
