@@ -38,7 +38,9 @@ const Contact = () => {
         },
         (error) => {
           console.log(error.text)
-          alert('FAILED...', error)
+          toast.error('Eror sendoing message! Please try again', {
+            position: toast.POSITION.BOTTOM_RIGHT,
+          })
         }
       )
   }

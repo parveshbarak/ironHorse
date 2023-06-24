@@ -1,30 +1,24 @@
 import React, { useEffect, useState } from 'react'
-import { addDoc, collection, getDocs, getDoc, doc } from '@firebase/firestore'
-import { firestore } from '../firebase'
+import { authCodes } from '../seeder'
+import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const Authenticity = () => {
+  const [btn, setBtn] = useState('check')
   const [code, setCode] = useState('')
   const onSubmit = async (e) => {
     e.preventDefault()
-    console.log('code', code)
-    // const ref = collection(firestore, 'authCodes')
-    const ref2 = doc(firestore, 'authCodes', 'Hello1')
-    // let data = {
-    //   code: code,
-    // }
-    // try {
-    //   addDoc(ref, data)
-    //   console.log('data', data)
-    // } catch (err) {
-    //   console.log(err)
-    // }
-    // const docSnap = await getDocs(ref)
-    // docSnap.forEach((doc) => {
-    //   console.log('doc.data()', doc.data())
-    // })
-
-    const snap = await getDoc(ref2)
-    console.log('snap', snap.data())
+    setBtn('Checking')
+    if (authCodes.has(code)) {
+      toast.success('Product is ironHorse orignal', {
+        position: toast.POSITION.BOTTOM_RIGHT,
+      })
+    } else {
+      toast.error('Product is not Orignal', {
+        position: toast.POSITION.BOTTOM_RIGHT,
+      })
+    }
+    setBtn('Chcek')
   }
   return (
     <section className='aunthenticity' id='aunthenticity'>
@@ -59,7 +53,7 @@ const Authenticity = () => {
               value={code}
               onChange={(e) => setCode(e.target.value)}
             />
-            <input type='submit' value='Check' className='btn' />
+            <input type='submit' value={btn} className='btn' />
           </form>
         </div>
       </div>

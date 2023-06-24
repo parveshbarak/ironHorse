@@ -989,3 +989,5 @@ export const orals = [
 //       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero necessitatibus est cum officia beatae nemo, culpa enim magni itaque doloribus voluptates neque quibusdam officiis. A at voluptatum facilis repellat doloremque.',
 //   },
 // ]
+
+export let authCodes = new Set(['hello1', 'hello2', 'hello3'])
