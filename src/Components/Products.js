@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { injectables, peptides, orals } from '../seeder'
 
 const Injectables = ({ display }) => {
@@ -7,7 +7,7 @@ const Injectables = ({ display }) => {
     <React.Fragment>
       <section
         className='products'
-        id='injectables'
+        id='injectableshere'
         style={{ display: `${display}` }}
       >
         <h1 className='heading'>
@@ -15,21 +15,15 @@ const Injectables = ({ display }) => {
         </h1>
         <div className='box-container'>
           {injectables.map((injectable) => (
-            <div className='box'>
-              <img src={injectable.image} alt='' />
-              <div className='content'>
-                <span>ironHorse orignal</span>
-                <h3>{injectable.heading}</h3>
-                <div className='share'>
-                  <Link
-                    to={`/injectables/${injectable.id}`}
-                    className='injectables'
-                  >
-                    show details
-                  </Link>
+            <Link to={`/injectables/${injectable.id}`}>
+              <div className='box'>
+                <img src={injectable.image} alt='' />
+                <div className='content'>
+                  <h2>{injectable.nickName}</h2>
+                  <h3>{injectable.mg}</h3>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </section>
@@ -50,18 +44,15 @@ const Peptides = ({ display }) => {
 
       <div className='box-container'>
         {peptides.map((peptide) => (
-          <div className='box'>
-            <img src={peptide.image} alt='' />
-            <div className='content'>
-              <span>ironHorse orignal</span>
-              <h3>{peptide.heading}</h3>
-              <div className='share'>
-                <Link to={`/peptides/${peptide.id}`} className='injectables'>
-                  show details
-                </Link>
+          <Link to={`/peptides/${peptide.id}`} className='injectables'>
+            <div className='box'>
+              <img src={peptide.image} alt='' />
+              <div className='content'>
+                <h2>{peptide.nickName}</h2>
+                <h3>{peptide.mg}</h3>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>
@@ -77,18 +68,15 @@ const Orals = ({ display }) => {
 
       <div className='box-container'>
         {orals.map((oral) => (
-          <div className='box'>
-            <img src={oral.image} alt='' />
-            <div className='content'>
-              <span>ironHorse orignal</span>
-              <h3>{oral.heading}</h3>
-              <div className='share'>
-                <Link to={`/orals/${oral.id}`} className='injectables'>
-                  show details
-                </Link>
+          <Link to={`/orals/${oral.id}`} className='injectables'>
+            <div className='box'>
+              <img src={oral.image} alt='' />
+              <div className='content'>
+                <h2>{oral.nickName}</h2>
+                <h3>{oral.mg}</h3>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>
@@ -103,16 +91,19 @@ const Products = () => {
     setInjectables(true)
     setPeptides(false)
     setOrals(false)
+    window.scrollTo(0, 1700)
   }
   const showPeptides = () => {
     setPeptides(true)
     setInjectables(false)
     setOrals(false)
+    window.scrollTo(0, 1700)
   }
   const showOrals = () => {
     setOrals(true)
     setPeptides(false)
     setInjectables(false)
+    window.scrollTo(0, 1700)
   }
   return (
     <React.Fragment>
@@ -125,49 +116,28 @@ const Products = () => {
           <div className='box' onClick={showInjectables}>
             <img src='images/prod1.png' alt='' />
             <div className='content'>
-              <span>ironHorse orignal</span>
-              <h3>injectables</h3>
-              <div className='share'>
-                <Link to='' className='injectables'>
-                  {' '}
-                  View Collection{' '}
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className='box' onClick={showPeptides}>
-            <img src='images/prod2.png' alt='' />
-            <div className='content'>
-              <span>ironHorse orignal</span>
-              <h3>peptides</h3>
-              <div className='share'>
-                <Link to='' className='peptides'>
-                  {' '}
-                  View Collection{' '}
-                </Link>
-              </div>
+              <h2>injectables</h2>
             </div>
           </div>
 
           <div className='box' onClick={showOrals}>
             <img src='images/prod3.png' alt='' />
             <div className='content'>
-              <span>ironHorse orignal</span>
-              <h3>orals</h3>
-              <div className='share'>
-                <Link to='' className='orals'>
-                  {' '}
-                  View Collection{' '}
-                </Link>
-              </div>
+              <h2>orals</h2>
+            </div>
+          </div>
+
+          <div className='box' onClick={showPeptides}>
+            <img src='images/prod2.png' alt='' />
+            <div className='content'>
+              <h2>peptides</h2>
             </div>
           </div>
         </div>
       </section>
       <Injectables display={injectables ? 'block' : 'none'} />
-      <Peptides display={peptides ? 'block' : 'none'} />
       <Orals display={orals ? 'block' : 'none'} />
+      <Peptides display={peptides ? 'block' : 'none'} />
     </React.Fragment>
   )
 }

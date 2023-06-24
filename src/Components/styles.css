@@ -497,18 +497,13 @@
   display: grid;
   -ms-grid-columns: (minmax(29rem, 1fr)) [auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
-  gap: 0.5rem;
+  gap: 4rem;
 }
 
 .products .box-container .box {
-  height: 40rem;
+  height: 50rem;
   overflow: hidden;
   position: relative;
-}
-
-.products .box-container .box:hover .content {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
 }
 
 .products .box-container .box img {
@@ -525,8 +520,6 @@
   right: 0;
   background: #111;
   padding: 2rem;
-  -webkit-transform: translateY(6.5rem);
-  transform: translateY(6.5rem);
 }
 
 .products .box-container .box .content span {
@@ -534,10 +527,20 @@
   color: #ff7f50;
 }
 
-.products .box-container .box .content h3 {
-  font-size: 2rem;
+.products .box-container .box .content h2 {
+  font-size: 3rem;
   color: #fff;
   padding-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.products .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #ff7f50;
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .products .box-container .box .content .share {
@@ -550,19 +553,6 @@
   font-size: 2rem;
   color: #fff;
   margin-right: 1.5rem;
-}
-
-.products .box-container .box .content .share a:hover {
-  color: #ff7f50;
-}
-
-.products .box-container .box .content .share .prod-details .detail {
-  font-size: 1.5rem;
-  color: #fff;
-}
-
-.products .pro-ann {
-  animation: fadeIn 7s ease-in-out forwards;
 }
 
 /* Product Detail CSS */
@@ -657,7 +647,6 @@
   color: #ff7f50;
   display: block;
 }
-
 
 /* Toast css */
 

@@ -7,7 +7,7 @@ import ProductDetail from '../Components/ProductDetail'
 
 const ProductDetailPage = ({ type }) => {
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 500)
   }, [])
   const { id } = useParams()
   console.log('id', id)

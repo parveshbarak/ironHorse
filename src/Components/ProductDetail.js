@@ -17,8 +17,8 @@ const ProductDetail = ({ type, id }) => {
         </div>
         <div className='box box2'>
           <div className='content'>
-            <h1>{arr[id-1].heading}</h1>
-            <h3> TESTOSTERONE PROPIONATE - 100MG/ML</h3>
+            <h1>{arr[id-1].nickName}</h1>
+            <h3>{arr[id-1].fullName} - {arr[id-1].mg}</h3>
             <div className="detail">
             {arr[id-1].detail.map((d) => {
               return(<div className="d">
