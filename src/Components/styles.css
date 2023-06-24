@@ -418,10 +418,11 @@
   font-size: 4rem;
   padding-top: 0.5rem;
   color: #fff;
+  text-align: center;
 }
 
 .aunthenticity .information img {
-  width: 80%;
+  width: 100%;
 }
 
 .aunthenticity .information p {
@@ -446,13 +447,13 @@
 }
 
 .aunthenticity .plan h3 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin: 1rem 0;
-  color: #fff;
+  color: #ff7f50;
 }
 
 .aunthenticity .plan .info p {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin: 1rem 0;
   color: #fff;
   margin-bottom: 2rem;
