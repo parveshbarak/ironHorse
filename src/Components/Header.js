@@ -26,20 +26,17 @@ const Header = () => {
           home
         </Link>
         <Link to='/about' onClick={menuClick}>
-          about
+          about us
         </Link>
-        <Link to='/benifits' onClick={menuClick}>
-          benifits
+        <Link to='/products' onClick={menuClick}>
+          products
         </Link>
         <Link to='/authenticity' onClick={menuClick}>
-          aunthenticity
+          check aunthenticity
         </Link>
         <a href='#contact' onClick={menuClick}>
           conatct us
         </a>
-        <Link to='/products' onClick={menuClick}>
-          products
-        </Link>
       </nav>
     </header>
   )

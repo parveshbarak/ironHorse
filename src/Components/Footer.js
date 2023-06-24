@@ -14,36 +14,17 @@ const Footer = () => {
               home
             </Link>
             <Link to='/about' className='links'>
-              about
+              about us
             </Link>
-            <Link to='/benifits' className='links'>
-              benifits
+            <Link to='/products' className='links'>
+              products
             </Link>
             <Link to='/authenticity' className='links'>
-              authenticity
+              check authenticity
             </Link>
             <a href='#contact' className='links'>
               contact us
             </a>
-            <Link to='/products' className='links'>
-              products
-            </Link>
-          </div>
-
-          <div className='box'>
-            <h3>How to reach</h3>
-            <p>
-              <i className='fas fa-phone'></i> +011-456-7890
-            </p>
-            <p>
-              <i className='fas fa-phone'></i> =91-2922-923333
-            </p>
-            <p>
-              <i className='fas fa-envelope'></i> prateek@gmail.com
-            </p>
-            <p>
-              <i className='fas fa-map'></i> delhi, india - 124404
-            </p>
           </div>
 
           <Contact />
@@ -51,7 +32,7 @@ const Footer = () => {
       </section>
 
       <div className='credit'>
-        created by <span>hey its just example</span> | all rights reserved!
+        <span>@ironhorsepharmacuticals</span> | all rights reserved!
       </div>
     </React.Fragment>
   )

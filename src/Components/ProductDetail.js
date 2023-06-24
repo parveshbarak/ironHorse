@@ -14,12 +14,11 @@ const ProductDetail = ({ type, id }) => {
       <div className='box-container'>
         <div className='box box1'>
           <img src={`../`+arr[id-1].image} alt='' />
-          <p>Here we will print Id of the product :- {id} </p>
         </div>
         <div className='box box2'>
           <div className='content'>
-            <h3>{arr[id-1].heading}</h3>
-            <span>{arr[id-1].description}</span>
+            <h1>{arr[id-1].heading}</h1>
+            <h3> TESTOSTERONE PROPIONATE - 100MG/ML</h3>
             <div className="detail">
             {arr[id-1].detail.map((d) => {
               return(<div className="d">
@@ -38,3 +37,6 @@ const ProductDetail = ({ type, id }) => {
 }
 
 export default ProductDetail
+
+
+//scroll down on products
