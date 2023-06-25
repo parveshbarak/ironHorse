@@ -22,9 +22,6 @@ const Benifits = () => {
             <img src='images/icon-1.png' alt='' />
             <h3>body building</h3>
             <p>THEY GO STRAIGHT TO THE MUSCLE AND BLOOD</p>
-            <Link to='' className='btn'>
-              read more
-            </Link>
           </div>
         </div>
 
@@ -36,12 +33,8 @@ const Benifits = () => {
             <img src='images/hey.none' alt='' />
             <h3>Fast Action and Absorbtion</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Similique, atque.
+              It is easily absorbed by the body and is known for its fast action
             </p>
-            <Link to='' className='btn'>
-              read more
-            </Link>
           </div>
         </div>
 
@@ -53,12 +46,8 @@ const Benifits = () => {
             <img src='images/hey2.png' alt='' />
             <h3>Easy Consuption</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Similique, atque.
+              It is Easy to consume 
             </p>
-            <Link to='' className='btn'>
-              read more
-            </Link>
           </div>
         </div>
       </div>
