@@ -1,13 +1,17 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 })
+  }, [])
   return (
     <section className='about' id='about'>
       <div className='image'>
         <img src='images/about-img.jpg' alt='' />
       </div>
-      <div className='content'>
+      <div data-aos='fade-left' className='content'>
         <h3 className='title'>
           <span className='c-name'>We are a high-tech </span>
           laboratory to develop
@@ -20,10 +24,10 @@ const About = () => {
           achieve the desired and expected body transformations.
         </p>
       </div>
-      <div className='image2'>
+      <div data-aos='fade-right' className='image2'>
         <img src='images/prod1.png' alt='' />
       </div>
-      <div className='content'>
+      <div data-aos='fade-left' className='content'>
         <h3 className='title'>
           Each of our products is made to meet the specific needs of athletes
           and

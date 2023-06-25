@@ -1,8 +1,13 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { injectables, peptides, orals } from '../seeder'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Injectables = ({ display }) => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 })
+  }, [])
   return (
     <React.Fragment>
       <section
@@ -113,21 +118,21 @@ const Products = () => {
         </h1>
 
         <div className='box-container'>
-          <div className='box' onClick={showInjectables}>
+          <div data-aos='fade-left' className='box' onClick={showInjectables}>
             <img src='images/prod1.png' alt='' />
             <div className='content'>
               <h2>injectables</h2>
             </div>
           </div>
 
-          <div className='box' onClick={showOrals}>
+          <div data-aos='fade-right' className='box' onClick={showOrals}>
             <img src='images/prod3.png' alt='' />
             <div className='content'>
               <h2>orals</h2>
             </div>
           </div>
 
-          <div className='box' onClick={showPeptides}>
+          <div data-aos='fade-left' className='box' onClick={showPeptides}>
             <img src='images/prod2.png' alt='' />
             <div className='content'>
               <h2>peptides</h2>
