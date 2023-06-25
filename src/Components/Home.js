@@ -2,6 +2,7 @@ import React from 'react'
 import './styles.css'
 import { Fade } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
+import { Link } from 'react-router-dom'
 
 const Slide = ({ slide_number, prod_number, text }) => {
   return (
@@ -18,27 +19,37 @@ const Slide = ({ slide_number, prod_number, text }) => {
 
 const Home = () => {
   return (
-    <section className='home' id='home'>
-      <div className='swiper home-slider'>
-        <Fade>
-          <Slide
-            slide_number='slide1'
-            prod_number='prod1'
-            text='2 Orals + 2 Peptides'
-          />
-          <Slide
-            slide_number='slide2'
-            prod_number='prod2'
-            text='4 Oral Assets'
-          />
-          <Slide
-            slide_number='slide3'
-            prod_number='prod3'
-            text='4 Vials Assets'
-          />
-        </Fade>
-      </div>
-    </section>
+    <React.Fragment>
+      <section className='home' id='home'>
+        <div className='swiper home-slider'>
+          <Fade>
+            <Slide
+              slide_number='slide1'
+              prod_number='prod1'
+              text='2 Orals + 2 Peptides'
+            />
+            <Slide
+              slide_number='slide2'
+              prod_number='prod2'
+              text='4 Oral Assets'
+            />
+            <Slide
+              slide_number='slide3'
+              prod_number='prod3'
+              text='4 Vials Assets'
+            />
+          </Fade>
+        </div>
+      </section>
+      <section className='realFakeHeader' id='realFakeHeader'>
+        <span class='realFake'>
+          <h3>Know the differeneces between REAL and FAKE Products</h3>
+          <Link to='/realFake' class='link'>
+            Click here
+          </Link>
+        </span>
+      </section>
+    </React.Fragment>
   )
 }
 

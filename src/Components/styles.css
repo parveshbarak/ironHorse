@@ -323,7 +323,7 @@
 
 /** Benifits Styles**/
 
-.benifits{
+.benifits {
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
@@ -644,4 +644,25 @@
 
 .Toastify__toast-body > div:last-child {
   font-size: large;
+}
+
+/* Real Fake header */
+
+.realFakeHeader {
+  background-color: #ff7f50;
+}
+
+.realFakeHeader span {
+  display: flex;
+  color: #fff;
+}
+
+.realFakeHeader span h3 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.realFakeHeader .link {
+  padding-left: 4rem;
+  font-size: 2rem;
 }

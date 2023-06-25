@@ -8,6 +8,7 @@ import AuthenticityPage from './Pages/AuthenticityPage'
 import BenifitsPage from './Pages/BenifitsPage'
 import AboutPage from './Pages/AboutPage'
 import { ToastContainer } from 'react-toastify'
+import RealFakePage from './Pages/RealFakePage'
 
 const App = () => {
   return (
@@ -36,6 +37,11 @@ const App = () => {
           exact
           path='/orals/:id'
           element={<ProductDetailPage type='orals' />}
+        ></Route>
+        <Route
+          exact
+          path='/realFake'
+          element={<RealFakePage />}
         ></Route>
       </Routes>
       <ToastContainer/>
