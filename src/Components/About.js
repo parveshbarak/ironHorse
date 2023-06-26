@@ -1,17 +1,39 @@
-import React, { useEffect } from 'react'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+import React from 'react'
+import { motion, useAnimation } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
+import { useEffect } from 'react'
+
+const annimationVariant = {
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: { type: 'spring', bounce: 0.25, delay: 0.2, duration: 1.5 },
+  },
+  hidden: { opacity: 0, scale: 0.5 },
+}
 
 const About = () => {
+  const control = useAnimation()
+  const [ref, inView] = useInView()
+
   useEffect(() => {
-    Aos.init({ duration: 1000 })
-  }, [])
+    if (inView) {
+      control.start('visible')
+    }
+  }, [control, inView])
+
   return (
     <section className='about' id='about'>
       <div className='image'>
         <img src='images/about-img.jpg' alt='' />
       </div>
-      <div data-aos='fade-left' className='content'>
+      <motion.div
+        className='content'
+        ref={ref}
+        variants={annimationVariant}
+        initial='hidden'
+        animate={control}
+      >
         <h3 className='title'>
           <span className='c-name'>We are a high-tech </span>
           laboratory to develop
@@ -23,11 +45,17 @@ const About = () => {
           of ourselves into each of the formulations so that our end user can
           achieve the desired and expected body transformations.
         </p>
-      </div>
-      <div data-aos='fade-right' className='image2'>
+      </motion.div>
+      <motion.div
+        className='image2'
+        ref={ref}
+        variants={annimationVariant}
+        initial='hidden'
+        animate={control}
+      >
         <img src='images/prod1.png' alt='' />
-      </div>
-      <div data-aos='fade-left' className='content'>
+      </motion.div>
+      <div className='content'>
         <h3 className='title'>
           Each of our products is made to meet the specific needs of athletes
           and

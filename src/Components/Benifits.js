@@ -1,20 +1,41 @@
-import React, { useEffect } from 'react'
-import { Link } from 'react-router-dom'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+import React from 'react'
+import { motion, useAnimation } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
+import { useEffect } from 'react'
+
+const annimationVariant = {
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: { type: 'spring', bounce: 0.25, duration: 1.5 },
+  },
+  hidden: { opacity: 0, scale: 0.5 },
+}
 
 const Benifits = () => {
+  const control = useAnimation()
+  const [ref, inView] = useInView()
+
   useEffect(() => {
-    Aos.init({ duration: 1000 })
-  }, [])
+    if (inView) {
+      control.start('visible')
+    }
+  }, [control, inView])
+
   return (
     <section className='benifits' id='benifits'>
       <h1 className='heading'>
         <span>benifits</span>
       </h1>
 
-      <div className='box-container'>
-        <div data-aos='fade-left' className='box'>
+      <motion.div
+        className='box-container'
+        ref={ref}
+        variants={annimationVariant}
+        initial='hidden'
+        animate={control}
+      >
+        <div className='box'>
           <div className='image'>
             <img src='images/f-img-1.jpg' alt='' />
           </div>
@@ -25,7 +46,7 @@ const Benifits = () => {
           </div>
         </div>
 
-        <div data-aos='fade-right' className='box second'>
+        <div className='box second'>
           <div className='image'>
             <img src='images/f-img-2.jpg' alt='' />
           </div>
@@ -38,19 +59,17 @@ const Benifits = () => {
           </div>
         </div>
 
-        <div data-aos='fade-left' className='box'>
+        <div className='box'>
           <div className='image'>
             <img src='images/f-img-3.jpg' alt='' />
           </div>
           <div className='content'>
             <img src='images/hey2.png' alt='' />
             <h3>Easy Consuption</h3>
-            <p>
-              It is Easy to consume 
-            </p>
+            <p>It is Easy to consume</p>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   )
 }
