@@ -10,7 +10,7 @@ const Header = () => {
   }
   return (
     <header className='header'>
-      <Link to='#' className='logo'>
+      <Link to='/' className='logo'>
         {' '}
         <span>iron</span>Horse{' '}
       </Link>
