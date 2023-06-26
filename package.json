@@ -45,7 +45,9 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
   "description": "ironh+Horsepharmacuticals all rights reserved",
   "main": "server.js",
   "keywords": [],
