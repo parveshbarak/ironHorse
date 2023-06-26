@@ -1,14 +1,40 @@
-import React, { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
+import { motion, useAnimation } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
+import { useEffect } from 'react'
+
+const annimationVariant = {
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: { type: 'spring', bounce: 0.25, duration: 1.5 },
+  },
+  hidden: { opacity: 0, scale: 0.5 },
+}
 
 const Benifits = () => {
+  const control = useAnimation()
+  const [ref, inView] = useInView()
+
+  useEffect(() => {
+    if (inView) {
+      control.start('visible')
+    }
+  }, [control, inView])
+
   return (
     <section className='benifits' id='benifits'>
       <h1 className='heading'>
         <span>benifits</span>
       </h1>
 
-      <div className='box-container'>
+      <motion.div
+        className='box-container'
+        ref={ref}
+        variants={annimationVariant}
+        initial='hidden'
+        animate={control}
+      >
         <div className='box'>
           <div className='image'>
             <img src='images/f-img-1.jpg' alt='' />
@@ -40,12 +66,10 @@ const Benifits = () => {
           <div className='content'>
             <img src='images/hey2.png' alt='' />
             <h3>Easy Consuption</h3>
-            <p>
-              It is Easy to consume 
-            </p>
+            <p>It is Easy to consume</p>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   )
 }
