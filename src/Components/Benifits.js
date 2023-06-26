@@ -1,12 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
 
 const Benifits = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1000 })
-  }, [])
   return (
     <section className='benifits' id='benifits'>
       <h1 className='heading'>
@@ -14,7 +9,7 @@ const Benifits = () => {
       </h1>
 
       <div className='box-container'>
-        <div data-aos='fade-left' className='box'>
+        <div className='box'>
           <div className='image'>
             <img src='images/f-img-1.jpg' alt='' />
           </div>
@@ -25,7 +20,7 @@ const Benifits = () => {
           </div>
         </div>
 
-        <div data-aos='fade-right' className='box second'>
+        <div className='box second'>
           <div className='image'>
             <img src='images/f-img-2.jpg' alt='' />
           </div>
@@ -38,7 +33,7 @@ const Benifits = () => {
           </div>
         </div>
 
-        <div data-aos='fade-left' className='box'>
+        <div className='box'>
           <div className='image'>
             <img src='images/f-img-3.jpg' alt='' />
           </div>

@@ -2,13 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { authCodes } from '../seeder'
 import { toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
 
 const Authenticity = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1000 })
-  }, [])
   const [btn, setBtn] = useState('check')
   const [code, setCode] = useState('')
   const onSubmit = async (e) => {
@@ -27,12 +22,12 @@ const Authenticity = () => {
   }
   return (
     <section className='aunthenticity' id='aunthenticity'>
-      <div data-aos='fade-left'  className='information'>
+      <div  className='information'>
         <h3>test authenticity of your product!</h3>
         <img src='images/prod1.png' alt='prod1' />
       </div>
 
-      <div data-aos='fade-right' className='plan basic'>
+      <div className='plan basic'>
         <h3>authenticity Check</h3>
         <div className='info'>
           <p>
