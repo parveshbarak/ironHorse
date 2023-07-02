@@ -393,7 +393,7 @@ export const injectables = [
   },
   {
     id: 12,
-    image: 'images/inj12.PNG',
+    image: 'images/inj12.jpeg',
     heading: 'GAIN MIX (BULKING COMPONENT BLEND) 450MG/ML',
     nickName: 'GAIN MIX',
     fullName: 'BULKING COMPONENT BLEND',
@@ -808,7 +808,7 @@ export const peptides = [
 export const orals = [
   {
     id: 1,
-    image: 'images/prod3.png',
+    image: 'images/prod3.jpeg',
     nickName: 'Anavar',
     fullName: 'OXANDDROLONE',
     mg: '10 MG',
@@ -829,7 +829,7 @@ export const orals = [
   },
   {
     id: 2,
-    image: 'images/prod3.png',
+    image: 'images/prod3.jpeg',
     heading: 'Dianabol',
     nickName: 'Dianabol',
     fullName: 'Methandienone',
@@ -852,7 +852,7 @@ export const orals = [
   },
   {
     id: 3,
-    image: 'images/prod3.png',
+    image: 'images/prod3.jpeg',
     heading: 'Stanazol ',
     nickName: 'Stanazol',
     fullName: 'StanazolOL',
@@ -874,7 +874,7 @@ export const orals = [
   },
   {
     id: 4,
-    image: 'images/prod3.png',
+    image: 'images/prod3.jpeg',
     heading: 'Cytomel- T3 25 mcg',
     nickName: 'Cytomel- T3',
     fullName: 'LIOTHYRONINE SODIUM',
@@ -896,7 +896,7 @@ export const orals = [
   },
   {
     id: 5,
-    image: 'images/prod3.png',
+    image: 'images/prod3.jpeg',
     heading: 'Anadrol 50 mg',
     nickName: 'Anadrol',
     fullName: 'OXYMETHOLONE',
@@ -918,7 +918,7 @@ export const orals = [
   },
   {
     id: 6,
-    image: 'images/prod3.png',
+    image: 'images/prod3.jpeg',
     heading: 'Clen 40mcg ',
     nickName: 'Clen',
     fullName: 'Clenbuterol HCL',

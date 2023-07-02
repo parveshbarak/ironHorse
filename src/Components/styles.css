@@ -26,7 +26,7 @@
 }
 
 .header .logo span {
-  color: #ff7f50;
+  color: #F2960D;
 }
 
 .header .navbar a {
@@ -37,7 +37,7 @@
 }
 
 .header .navbar a:hover {
-  background: #ff7f50;
+  background: #F2960D;
 }
 
 #menu-btn {
@@ -101,7 +101,7 @@
 }
 
 .footer .box-container .box .links:hover {
-  color: #ff7f50;
+  color: #F2960D;
 }
 
 .footer .box-container .box p {
@@ -112,7 +112,7 @@
 
 .footer .box-container .box p i {
   padding-right: 0.5rem;
-  color: #ff7f50;
+  color: #F2960D;
 }
 
 .footer .box-container .box .share {
@@ -132,7 +132,7 @@
 }
 
 .footer .box-container .box .share a:hover {
-  background: #ff7f50;
+  background: #F2960D;
 }
 
 .footer .box-container .box form .email {
@@ -155,7 +155,7 @@
 }
 
 .credit span {
-  color: #ff7f50;
+  color: #F2960D;
 }
 
 /** Home Stying **/
@@ -190,7 +190,7 @@
 
 .home .slide .content span {
   font-size: 2rem;
-  color: #ff7f50;
+  color: #F2960D;
   display: block;
 }
 
@@ -233,7 +233,7 @@
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #ff7f50;
+  background: #F2960D;
 }
 
 /** Aboutus Styling **/
@@ -262,7 +262,7 @@
   content: '';
   position: absolute;
   z-index: -1;
-  background: #ff7f50;
+  background: #F2960D;
   height: 15rem;
   width: 15rem;
 }
@@ -295,7 +295,7 @@
 
 .about .content span {
   font-size: 3rem;
-  color: #ff7f50;
+  color: #F2960D;
 }
 
 .about .content .title {
@@ -307,7 +307,7 @@
 
 .about .content .title .c-name {
   font-size: 3rem;
-  color: #ff7f50;
+  color: #F2960D;
   margin-top: 0.5rem;
   font-weight: 800;
 }
@@ -378,7 +378,7 @@
 
 .benifits .box-container .box .content h3 {
   font-size: 2rem;
-  color: #ff7f50;
+  color: #F2960D;
 }
 
 .benifits .box-container .box .content p {
@@ -402,7 +402,7 @@
 
 .aunthenticity .information span {
   font-size: 2rem;
-  color: #ff7f50;
+  color: #F2960D;
 }
 
 .aunthenticity .information h3 {
@@ -425,7 +425,7 @@
 
 .aunthenticity .information p i {
   padding-right: 1rem;
-  color: #ff7f50;
+  color: #F2960D;
 }
 
 .aunthenticity .plan {
@@ -440,7 +440,7 @@
 .aunthenticity .plan h3 {
   font-size: 3.5rem;
   margin: 1rem 0;
-  color: #ff7f50;
+  color: #F2960D;
 }
 
 .aunthenticity .plan .info p {
@@ -453,7 +453,7 @@
 .aunthenticity .plan .price {
   font-size: 5rem;
   font-weight: bolder;
-  color: #ff7f50;
+  color: #F2960D;
 }
 
 .aunthenticity .plan .price span {
@@ -463,11 +463,12 @@
 
 .aunthenticity .plan .form {
   padding: 1rem 0;
+  justify-content: center;
 }
 
 .aunthenticity .plan .form .code {
   height: 4rem;
-  width: 50%;
+  width: 80%;
   /* border: #aaa 0.5px solid; */
   color: black;
   background-color: #aaa;
@@ -499,7 +500,7 @@
 }
 
 .products .box-container .box img {
-  height: 100%;
+  height: 80%;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
@@ -516,7 +517,7 @@
 
 .products .box-container .box .content span {
   font-size: 1.5rem;
-  color: #ff7f50;
+  color: #F2960D;
 }
 
 .products .box-container .box .content h2 {
@@ -529,7 +530,7 @@
 
 .products .box-container .box .content h3 {
   font-size: 2rem;
-  color: #ff7f50;
+  color: #F2960D;
   padding-top: 0.5rem;
   display: flex;
   justify-content: center;
@@ -584,12 +585,12 @@
 
 .product-detail .box-container .box .content span {
   font-size: 1.5rem;
-  color: #ff7f50;
+  color: #F2960D;
 }
 
 .product-detail .box-container .box .content h1 {
   font-size: 4rem;
-  color: #ff7f50;
+  color: #F2960D;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
   display: flex;
@@ -636,7 +637,7 @@
 
 .product-detail .box-container .box .content .detail .d h3 {
   font-size: 2rem;
-  color: #ff7f50;
+  color: #F2960D;
   display: block;
 }
 
@@ -649,7 +650,7 @@
 /* Real Fake header */
 
 .realFakeHeader {
-  background-color: #ff7f50;
+  background-color: #F2960D;
 }
 
 .realFakeHeader span {
