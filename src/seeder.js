@@ -1,7 +1,7 @@
 export const injectables = [
   {
     id: 1,
-    image: 'images/inj1.PNG',
+    image: 'images/inj1.jpeg',
     nickName: 'TREN- E',
     fullName: 'Testosterone Propionate 100mg/ml',
     mg: '200MG/ML',
@@ -37,7 +37,7 @@ export const injectables = [
   },
   {
     id: 2,
-    image: 'images/inj1.PNG',
+    image: 'images/inj2.jpeg',
     nickName: 'TESTPRO',
     fullName: 'Testosterone Propionate 100mg/ml',
     mg: '100 MG/ML',
@@ -73,17 +73,17 @@ export const injectables = [
   },
   {
     id: 3,
-    image: 'images/inj3.PNG',
+    image: 'images/inj3.jpeg',
     nickName: 'TEST-C',
-    fullName: 'TESTOSTERONE PROPIONATE',
+    fullName: 'TESTOSTERONE CYPIONATE',
     mg: '250 MG/ML',
     description:
       'It is a derivative of nandrolone, it is a considerably anabolic and androgenic steroid five times greater than testosterone, it is highly valued for its ability to drastically increase muscle hardness, definition and strength without fluid retention, that is why it is used in stages of definition. It can last 3 days in the body.',
     detail: [
       {
-        heading: 'TESTPRO (TESTOSTERONE PROPIONATE) - 100MG/ML',
+        heading: 'Description',
         description: [
-          'An ideal testosterone for volume and definition cycles. With good muscle gains for beginners and advanced. With a maximum duration of 2 days in the body.',
+          'It is a derivative of nandrolone, it is a considerably anabolic and androgenic steroid five times greater than testosterone, it is highly valued for its ability to drastically increase muscle hardness, definition and strength without fluid retention, that is why it is used in stages of definition. It can last 3 days in the body.',
         ],
       },
       {
@@ -109,7 +109,7 @@ export const injectables = [
   },
   {
     id: 4,
-    image: 'images/inj4.PNG',
+    image: 'images/inj4.jpeg',
     nickName: 'TREN-ACE',
     fullName: 'TRENBLONE ACETATE',
     mg: '100 MG/ML',
@@ -117,7 +117,7 @@ export const injectables = [
       'It is a derivative of nandrolone, it is a considerably anabolic and androgenic steroid five times greater than testosterone, it is highly valued for its ability to drastically increase muscle hardness, definition and strength without fluid retention, that is why it is used in stages of definition. It can last 3 days in the body.',
     detail: [
       {
-        heading: 'TREN-ACE (TRENBLONE ACETATE) -100MG/ML',
+        heading: 'Description',
         description: [
           'It is a derivative of nandrolone, it is a considerably anabolic and androgenic steroid five times greater than testosterone, it is highly valued for its ability to drastically increase muscle hardness, definition and strength without fluid retention, that is why it is used in stages of definition. It can last 3 days in the body.',
         ],
@@ -145,7 +145,7 @@ export const injectables = [
   },
   {
     id: 5,
-    image: 'images/inj5.PNG',
+    image: 'images/inj5.jpeg',
     nickName: 'BOLDANE',
     fullName: 'BOLDENONE UNDECYLENATE',
     mg: '250 MG',
@@ -153,7 +153,7 @@ export const injectables = [
       'It promotes muscle gain by increasing the availability of amino acids and the formation of red blood cells by increasing the supply of oxygen. Boldenone is a highly anabolic steroid, with low estrogenic activity and anabolic capacity identical to testosterone. With gradual release from 2 days to 21 days.',
     detail: [
       {
-        heading: 'BOLDANE (BOLDENONE UNDECYLENATE) -250MG',
+        heading: 'Description',
         description: [
           'It promotes muscle gain by increasing the availability of amino acids and the formation of red blood cells by increasing the supply of oxygen. Boldenone is a highly anabolic steroid, with low estrogenic activity and anabolic capacity identical to testosterone. With gradual release from 2 days to 21 days.',
         ],
@@ -181,7 +181,7 @@ export const injectables = [
   },
   {
     id: 6,
-    image: 'images/inj6.PNG',
+    image: 'images/inj6.jpeg',
     nickName: 'DECA',
     fullName: 'NANDROLONE DECANOATE',
     mg: '250 MG/ML',
@@ -189,7 +189,7 @@ export const injectables = [
       'Ideal for increasing muscle mass since it does not induce water retention (accumulation of water in the tissues of our body). Gradual release from 1 to 15 days.',
     detail: [
       {
-        heading: 'DECA (NANDROLONE DECANOATE )-250MG/ML',
+        heading: 'Description',
         description: [
           'Ideal for increasing muscle mass since it does not induce water retention (accumulation of water in the tissues of our body). Gradual release from 1 to 15 days.',
         ],
@@ -215,7 +215,7 @@ export const injectables = [
   },
   {
     id: 7,
-    image: 'images/inj6.PNG',
+    image: 'images/inj7.jpeg',
     nickName: 'TEST-E',
     fullName: 'TESTOSTERONE ENANTHATE',
     mg: '250 MG/ML',
@@ -223,7 +223,7 @@ export const injectables = [
       'It is one of the most powerful after decanoate, when you want to gain more muscle mass, strength and power, since it maintains high concentrations of nitrogen for rapid muscle synthesis with fluid retention, to see a rocky and bulky muscle, with an action gradually from 1 day to 8 days in the body.',
     detail: [
       {
-        heading: 'TEST-E (TESTOSTERONE ENANTHATE) 250MG/ML',
+        heading: 'Description',
         description: [
           'It is one of the most powerful after decanoate, when you want to gain more muscle mass, strength and power, since it maintains high concentrations of nitrogen for rapid muscle synthesis with fluid retention, to see a rocky and bulky muscle, with an action gradually from 1 day to 8 days in the body.',
         ],
@@ -252,7 +252,7 @@ export const injectables = [
   },
   {
     id: 8,
-    image: 'images/inj8.PNG',
+    image: 'images/inj8.jpeg',
     nickName: 'NPP',
     fullName: 'NANDROLONE PHENYLPROPIONATE',
     mg: '100 MG/ML',
@@ -260,7 +260,7 @@ export const injectables = [
       'Perfect for the definition stage, with an androgenic index of 30 and an anabolic index of 320. Its characteristics make it ideal for consumption by women. Strong anabolic with zero capacity to estrogenize, does not generate water retention (accumulation of water in the body tissues). Thanks to its low androgenic index, it is ideal for use by women seeking to increase muscle mass.',
     detail: [
       {
-        heading: 'NPP (NANDROLONE PHENYLPROPIONATE) 100MG/ML ',
+        heading: 'Description',
         description: [
           'Perfect for the definition stage, with an androgenic index of 30 and an anabolic index of 320. Its characteristics make it ideal for consumption by women. Strong anabolic with zero capacity to estrogenize, does not generate water retention (accumulation of water in the body tissues). Thanks to its low androgenic index, it is ideal for use by women seeking to increase muscle mass.',
         ],
@@ -285,7 +285,7 @@ export const injectables = [
   },
   {
     id: 9,
-    image: 'images/inj9.PNG',
+    image: 'images/inj9.jpeg',
     nickName: 'WINNY',
     fullName: 'SUPER MICRONIZED STANOZOLOL',
     mg: '100 MG/ML',
@@ -293,7 +293,7 @@ export const injectables = [
       'Perfect for the definition stage, with an androgenic index of 30 and an anabolic index of 320. Its characteristics make it ideal for consumption by women. Strong anabolic with zero capacity to estrogenize, does not generate water retention (accumulation of water in the body tissues). Thanks to its low androgenic index, it is ideal for use by women seeking to increase muscle mass.',
     detail: [
       {
-        heading: 'WINNY (SUPER MICRONIZED STANOZOLOL) 100MG/ML ',
+        heading: 'Description',
         description: [
           'Perfect for the definition stage, with an androgenic index of 30 and an anabolic index of 320. Its characteristics make it ideal for consumption by women. Strong anabolic with zero capacity to estrogenize, does not generate water retention (accumulation of water in the body tissues). Thanks to its low androgenic index, it is ideal for use by women seeking to increase muscle mass.',
         ],
@@ -318,7 +318,7 @@ export const injectables = [
   },
   {
     id: 10,
-    image: 'images/inj10.PNG',
+    image: 'images/inj10.jpeg',
     nickName: 'MASTERONE',
     fullName: 'DROSTANOLONE PROPIONATE',
     mg: '100 MG/ML',
@@ -326,7 +326,7 @@ export const injectables = [
       'It is an anabolic with low androgenic characteristics and the anabolic index is not very high, but it is 30% higher than testosterone. Ideal for definition stages in men and lean growth, as it is not prone to estrogenization and has no effects against the liver. With duration of 2 days in the body, and with slight antiestrogenic activity.',
     detail: [
       {
-        heading: ' MASTERONE (DROSTANOLONE PROPIONATE) 100MG/ML ',
+        heading: 'Description',
         description: [
           'It is an anabolic with low androgenic characteristics and the anabolic index is not very high, but it is 30% higher than testosterone. Ideal for definition stages in men and lean growth, as it is not prone to estrogenization and has no effects against the liver. With duration of 2 days in the body, and with slight antiestrogenic activity.',
         ],
@@ -357,7 +357,7 @@ export const injectables = [
   },
   {
     id: 11,
-    image: 'images/inj11.PNG',
+    image: 'images/inj11.jpeg',
     nickName: 'PRIMO',
     fullName: 'METHENOLONE ENANTHATE',
     mg: '100 MG/ML',
@@ -365,7 +365,7 @@ export const injectables = [
       'A powerful combination to develop muscle mass, since it maintains high concentrations of nitrogen for the rapid synthesis of muscle tissue, this by increasing fluid retention by keeping muscle cells hydrated.',
     detail: [
       {
-        heading: 'PRIMO (METHENOLONE ENANTHATE) 100 MG/ML ',
+        heading: 'Description',
         description: [
           'An ideal testosterone for volume and definition cycles. With good muscle gains for beginners and advanced. With a maximum duration of 2 days in the body.',
         ],
@@ -394,7 +394,6 @@ export const injectables = [
   {
     id: 12,
     image: 'images/inj12.jpeg',
-    heading: 'GAIN MIX (BULKING COMPONENT BLEND) 450MG/ML',
     nickName: 'GAIN MIX',
     fullName: 'BULKING COMPONENT BLEND',
     mg: '450 MG/ML',
@@ -402,7 +401,7 @@ export const injectables = [
       'A powerful combination to develop muscle mass, since it maintains high concentrations of nitrogen for the rapid synthesis of muscle tissue, this by increasing fluid retention by keeping muscle cells hydrated.',
     detail: [
       {
-        heading: 'GAIN MIX (BULKING COMPONENT BLEND) 450MG/ML',
+        heading: 'Description',
         description: [
           'An ideal testosterone for volume and definition cycles. With good muscle gains for beginners and advanced. With a maximum duration of 2 days in the body.',
         ],
@@ -431,7 +430,7 @@ export const injectables = [
   },
   {
     id: 13,
-    image: 'images/inj13.PNG',
+    image: 'images/inj13.jpeg',
     nickName: 'CUT MIX',
     fullName: 'CUTTING COMPONENT BLEND',
     mg: '300 MG/ML',
@@ -439,7 +438,7 @@ export const injectables = [
       'A powerful combination to develop muscle mass, since it maintains high concentrations of nitrogen for the rapid synthesis of muscle tissue, this by increasing fluid retention by keeping muscle cells hydrated.',
     detail: [
       {
-        heading: 'CUT MIX (CUTTING COMPONENT BLEND ) 300MG/ML',
+        heading: 'Description',
         description: [
           'An ideal testosterone for volume and definition cycles. With good muscle gains for beginners and advanced. With a maximum duration of 2 days in the body.',
         ],
@@ -468,7 +467,7 @@ export const injectables = [
   },
   {
     id: 14,
-    image: 'images/inj14.PNG',
+    image: 'images/inj14.jpeg',
     nickName: 'SUSTAGAIN',
     fullName: 'TESTOSTERONE BLEND',
     mg: '250 MG/ML',
@@ -476,7 +475,7 @@ export const injectables = [
       'A powerful combination to develop muscle mass, since it maintains high concentrations of nitrogen for the rapid synthesis of muscle tissue, this by increasing fluid retention by keeping muscle cells hydrated.',
     detail: [
       {
-        heading: 'SUSTAGAIN ( TESTOSTERONE BLEND) 250MG/ML ',
+        heading: 'Description',
         description: [
           'An ideal testosterone for volume and definition cycles. With good muscle gains for beginners and advanced. With a maximum duration of 2 days in the body.',
         ],
@@ -505,7 +504,7 @@ export const injectables = [
   },
   {
     id: 15,
-    image: 'images/inj15.PNG',
+    image: 'images/inj15.jpeg',
     nickName: 'TRI TRENABOL',
     fullName: 'TRENBOLONE BLEND',
     mg: '200 MG/ML',
@@ -513,7 +512,7 @@ export const injectables = [
       'A powerful combination to develop muscle mass, since it maintains high concentrations of nitrogen for the rapid synthesis of muscle tissue, this by increasing fluid retention by keeping muscle cells hydrated.',
     detail: [
       {
-        heading: 'TRI TRENABOL (TRENBOLONE BLEND ) 200MG/ML',
+        heading: 'Description',
         description: [
           'An ideal testosterone for volume and definition cycles. With good muscle gains for beginners and advanced. With a maximum duration of 2 days in the body.',
         ],
@@ -545,16 +544,15 @@ export const injectables = [
 export const peptides = [
   {
     id: 1,
-    image: 'images/prod2.png',
-    heading: 'GHRP-2 5mg *5 vial ',
-    nickName: '',
-    fullName: '',
-    mg: '',
+    image: 'images/pep1.jpeg',
+    nickName: 'GHRP-2',
+    fullName: 'Growth Hormone Releasing Peptide-2',
+    mg: '5mg *5 vial',
     description:
       'GHRP 2 (otherwise called KP 102) is an engineered hexapeptide Development Hormone Discharging Peptide (GHRP), which follows up on the hypothalamus and the pituitary organ to discharge development hormone with a slight stimulator impact on Prolactin, ACTH and Cortisol levels. GHRP 2 is thought to be a genuine hGH secretagogue, implying that it invigorates the body’s own emission of hGH. Human Development hormone has been appeared in studies to advance incline body mass and decrease adiposity (fat). GHRP 2 has exhibited that it is exceptionally compelling at fortifying GH creation in exploration test subjects. It has a short half existence with top focuses happening around 15 minutes and not longer than a hour after organization.',
     detail: [
       {
-        heading: 'GHRP-2 5mg *5 vial ',
+        heading: 'Description',
         description: [
           'GHRP 2 (otherwise called KP 102) is an engineered hexapeptide Development Hormone Discharging Peptide (GHRP), which follows up on the hypothalamus and the pituitary organ to discharge development hormone with a slight stimulator impact on Prolactin, ACTH and Cortisol levels. GHRP 2 is thought to be a genuine hGH secretagogue, implying that it invigorates the body’s own emission of hGH. Human Development hormone has been appeared in studies to advance incline body mass and decrease adiposity (fat). GHRP 2 has exhibited that it is exceptionally compelling at fortifying GH creation in exploration test subjects. It has a short half existence with top focuses happening around 15 minutes and not longer than a hour after organization.',
         ],
@@ -581,16 +579,15 @@ export const peptides = [
   },
   {
     id: 2,
-    image: 'images/prod2.png',
-    heading: 'GHRP-6 5mg*5  vial ',
-    nickName: '',
-    fullName: '',
-    mg: '',
+    image: 'images/pep2.jpeg',
+    nickName: 'GHRP-6',
+    fullName: 'Growth Hormone Releasing Peptide-6',
+    mg: '5mg *5 vial',
     description:
       'GHRP-6 is an injectable growth-hormone-releasing-peptide, or GHRP. Other peptides in this category include GHRP-2, hexarelin, and ipamorelin. All GHRPs have a similar method of action, so there’s no need to stack them. Rather, choose the one that’s most appropriate',
     detail: [
       {
-        heading: 'GHRP-6 5mg*5  vial ',
+        heading: 'Description',
         description: [
           'GHRP-6 is an injectable growth-hormone-releasing-peptide, or GHRP. Other peptides in this category include GHRP-2, hexarelin, and ipamorelin. All GHRPs have a similar method of action, so there’s no need to stack them. Rather, choose the one that’s most appropriate',
         ],
@@ -617,16 +614,15 @@ export const peptides = [
   },
   {
     id: 3,
-    image: 'images/prod2.png',
-    heading: 'IGF-1LR3 100mcg *5 vial ',
-    nickName: '',
-    fullName: '',
-    mg: '',
+    image: 'images/pep3.jpeg',
+    nickName: 'IGF-1LR3',
+    fullName: 'Insulin-like Growth Factor-I, Long R3',
+    mg: '100mcg *5 vial',
     description:
-      'IGF 1 LR3 (Long R3 Insulin-like Growth Factor-I or Long R3IGF-I) is an 83 amino acid analog of human IGF-I actually comprising the complete human IGF 1 LR3 sequence but with the substitution of an Arg for the Glu at position 3, as well as a 13 amino acid extension peptide at the N-terminus. This makes Long R3IGF-I significantly more potent (2-3x) than IGF 1 LR3 in studies, because it has a lower affinity to be rendered inactive by IGF binding proteins, and consequently more potential activity in the body. IGF 1 LR3 1 consists of 70 amino acids in a single chain with three intramolecular disulfide bridges.1',
+      'IGF 1 LR3 (Long R3 Insulin-like Growth Factor-I or Long R3 IGF-I) is an 83 amino acid analog of human IGF-I actually comprising the complete human IGF 1 LR3 sequence but with the substitution of an Arg for the Glu at position 3, as well as a 13 amino acid extension peptide at the N-terminus. This makes Long R3IGF-I significantly more potent (2-3x) than IGF 1 LR3 in studies, because it has a lower affinity to be rendered inactive by IGF binding proteins, and consequently more potential activity in the body. IGF 1 LR3 1 consists of 70 amino acids in a single chain with three intramolecular disulfide bridges.1',
     detail: [
       {
-        heading: 'IGF-1LR3 100mcg *5 vial ',
+        heading: 'Description',
         description: [
           'IGF 1 LR3 (Long R3 Insulin-like Growth Factor-I or Long R3IGF-I) is an 83 amino acid analog of human IGF-I actually comprising the complete human IGF 1 LR3 sequence but with the substitution of an Arg for the Glu at position 3, as well as a 13 amino acid extension peptide at the N-terminus. This makes Long R3IGF-I significantly more potent (2-3x) than IGF 1 LR3 in studies, because it has a lower affinity to be rendered inactive by IGF binding proteins, and consequently more potential activity in the body. IGF 1 LR3 1 consists of 70 amino acids in a single chain with three intramolecular disulfide bridges.1',
         ],
@@ -652,16 +648,15 @@ export const peptides = [
   },
   {
     id: 4,
-    image: 'images/prod2.png',
-    heading: 'HGH fragment (176-191) 2mg *5 vial ',
-    nickName: '',
-    fullName: '',
-    mg: '',
+    image: 'images/pep4.jpeg',
+    nickName: 'HGH fragment (176-191)',
+    fullName: 'Human Growth Hormone Fragment',
+    mg: '2mg *5 vial',
     description:
       'HGH “Fragment” is the portion of HGH that is responsible for most of HGH’s fat-burning effects, but specifically omits many features contained in the full peptide. Because of this, HGH Fragment can be ran at MUCH higher dosages while allowing the user to skip out on the typical side effects of injecting excessive HGH (water retention, insulin/blood sugar issues, carpal tunnel syndrome etc).',
     detail: [
       {
-        heading: 'HGH fragment (176-191) 2mg *5 vial ',
+        heading: 'Description',
         description: [
           'HGH “Fragment” is the portion of HGH that is responsible for most of HGH’s fat-burning effects, but specifically omits many features contained in the full peptide. Because of this, HGH Fragment can be ran at MUCH higher dosages while allowing the user to skip out on the typical side effects of injecting excessive HGH (water retention, insulin/blood sugar issues, carpal tunnel syndrome etc).',
         ],
@@ -674,16 +669,15 @@ export const peptides = [
   },
   {
     id: 5,
-    image: 'images/prod2.png',
-    heading: 'HGH -somatropin (3.33mg ) 10iu *5 vials ',
-    nickName: '',
-    fullName: '',
-    mg: '',
+    image: 'images/pep5.jpeg',
+    nickName: 'HGH -somatropin',
+    fullName: 'Recombinant Human Growth Hormone',
+    mg: '(3.33mg ) 10iu *5 vials',
     description:
       'As a bodybuilding drug, HGH supplements increase lean body mass, shortens recovery time between workouts, and enhances overall performance with less risk of detection than other performance-enhancing drugs. HGH strengthens joints and ligaments and heals damaged tissue. Other bodybuilding benefits of human growth hormone include increased protein synthesis abilities, an increase in the amount of insulin a person can use effectively, and an increase in the amount of anabolic steroids a person can use effectively',
     detail: [
       {
-        heading: 'HGH -somatropin (3.33mg ) 10iu *5 vials ',
+        heading: 'Description',
         description: [
           'As a bodybuilding drug, HGH supplements increase lean body mass, shortens recovery time between workouts, and enhances overall performance with less risk of detection than other performance-enhancing drugs. HGH strengthens joints and ligaments and heals damaged tissue. Other bodybuilding benefits of human growth hormone include increased protein synthesis abilities, an increase in the amount of insulin a person can use effectively, and an increase in the amount of anabolic steroids a person can use effectively',
         ],
@@ -710,16 +704,15 @@ export const peptides = [
   },
   {
     id: 6,
-    image: 'images/prod2.png',
-    heading: 'IGF - 1  DES 100mcg*5 vials',
-    nickName: '',
-    fullName: '',
-    mg: '',
+    image: 'images/pep6.jpeg',
+    nickName: 'IGF-1 DES',
+    fullName: 'Insulin Like Growth Factor-1 DES',
+    mg: '100mcg*5 vials',
     description:
       'IGF 1 LR3 (Long R3 Insulin-like Growth Factor-I or Long R3IGF-I) is an 83 amino acid analog of human IGF-I actually comprising the complete human IGF 1 LR3 sequence but with the substitution of an Arg for the Glu at position 3, as well as a 13 amino acid extension peptide at the N-terminus. This makes Long R3IGF-I significantly more potent (2-3x) than IGF 1 LR3 in studies, because it has a lower affinity to be rendered inactive by IGF binding proteins, and consequently more potential activity in the body. IGF 1 LR3 1 consists of 70 amino acids in a single chain with three intramolecular disulfide bridges.',
     detail: [
       {
-        heading: 'IGF - 1  DES 100mcg*5 vials',
+        heading: 'Description',
         description: [
           'IGF 1 LR3 (Long R3 Insulin-like Growth Factor-I or Long R3IGF-I) is an 83 amino acid analog of human IGF-I actually comprising the complete human IGF 1 LR3 sequence but with the substitution of an Arg for the Glu at position 3, as well as a 13 amino acid extension peptide at the N-terminus. This makes Long R3IGF-I significantly more potent (2-3x) than IGF 1 LR3 in studies, because it has a lower affinity to be rendered inactive by IGF binding proteins, and consequently more potential activity in the body. IGF 1 LR3 1 consists of 70 amino acids in a single chain with three intramolecular disulfide bridges.',
         ],
@@ -742,16 +735,15 @@ export const peptides = [
   },
   {
     id: 7,
-    image: 'images/prod2.png',
-    heading: 'CJC-1295 (with DAC) 2mg*5 vials',
-    nickName: '',
-    fullName: '',
-    mg: '',
+    image: 'images/pep7.jpeg',
+    nickName: 'CJC-1295 (with DAC)',
+    fullName: 'Drug Affinity Complex DAC',
+    mg: '2mg*5 vials',
     description:
       'CJC 1295 is in the class of growth hormone releasing hormone (GHRH) mimetics. GHRH is also the name of the naturally-occurring hormone in the body, but the natural compound is not used in bodybuilding or as a performance-enhancing drug due to its high cost of manufacture and its extremely brief duration of action.. CJC 1295 is a modified version of the first 29 amino acids of GHRH, together with addition of a “Drug Affinity Complex” or DAC. The combination of modifications provides a half life of about 1 week, and steady blood levels after injection. CJC 1295 amplifies GH production in the same way that GHRH does. Administration does not initiate a pulse of GH release. Because CJC 1295 provides steady blood levels, it increases the amplitude of natural GH pulses on an ongoing basis. It does not combine especially efficiently with a GHRP, because the DAC modification results in relatively lower ongoing levels of free peptide.',
     detail: [
       {
-        heading: 'CJC-1295 (with DAC) 2mg*5 vials',
+        heading: 'Description',
         description: [
           'CJC 1295 is in the class of growth hormone releasing hormone (GHRH) mimetics. GHRH is also the name of the naturally-occurring hormone in the body, but the natural compound is not used in bodybuilding or as a performance-enhancing drug due to its high cost of manufacture and its extremely brief duration of action.. CJC 1295 is a modified version of the first 29 amino acids of GHRH, together with addition of a “Drug Affinity Complex” or DAC. The combination of modifications provides a half life of about 1 week, and steady blood levels after injection. CJC 1295 amplifies GH production in the same way that GHRH does. Administration does not initiate a pulse of GH release. Because CJC 1295 provides steady blood levels, it increases the amplitude of natural GH pulses on an ongoing basis. It does not combine especially efficiently with a GHRP, because the DAC modification results in relatively lower ongoing levels of free peptide.',
         ],
@@ -769,16 +761,15 @@ export const peptides = [
   },
   {
     id: 8,
-    image: 'images/prod2.png',
-    heading: 'Ipamorelin 2mg*5 vial',
-    nickName: '',
+    image: 'images/pep7.jpeg',
+    nickName: 'Ipamorelin',
     fullName: '',
-    mg: '',
+    mg: '2mg*5 vial',
     description:
       'Ipamorelin is a 3rd generation GHRP behind GHRP-6 and GHRP-2. Ipamorelin has very similar characteristics of GHRP-2: does not have ghrelin’s lipogenic properties and does not promote hunger. Ipamorelin acts synergistically when applied during a Growth Hormone Releasing Hormone (GHRH) pulse or when it is administered along with a GHRH or an analog such as Sermorelin or Modified GRF 1-29 (growth releasing factor, aminos 1-29). The synergy comes both due to the suppression of somatostatin and the fact that ipamorelin increases GH release per-somatotrope, while GHRH increases the number of somatotropes releasing GH. On the other hand, Ipamorelin is similar to GHRP-6 because they both release GH at a very similar strength minus the side effects that of GHRP-6. Both GHRP-6 and GHRP-2 cause a release and an increase in cortisol and prolactin levels, however Ipamorelin only selectively releases GH at any dose. Ipamorelin shares similar functionality to Hexarelin and compared to other peptides, it is a much more stable form of ghrelin and has longer half-life periods of at least two hours long and causes secondary effect by making neurons to become excited.',
     detail: [
       {
-        heading: 'Ipamorelin 2mg*5 vial',
+        heading: 'Description',
         description: [
           'Ipamorelin is a 3rd generation GHRP behind GHRP-6 and GHRP-2. Ipamorelin has very similar characteristics of GHRP-2: does not have ghrelin’s lipogenic properties and does not promote hunger. Ipamorelin acts synergistically when applied during a Growth Hormone Releasing Hormone (GHRH) pulse or when it is administered along with a GHRH or an analog such as Sermorelin or Modified GRF 1-29 (growth releasing factor, aminos 1-29). The synergy comes both due to the suppression of somatostatin and the fact that ipamorelin increases GH release per-somatotrope, while GHRH increases the number of somatotropes releasing GH. On the other hand, Ipamorelin is similar to GHRP-6 because they both release GH at a very similar strength minus the side effects that of GHRP-6. Both GHRP-6 and GHRP-2 cause a release and an increase in cortisol and prolactin levels, however Ipamorelin only selectively releases GH at any dose. Ipamorelin shares similar functionality to Hexarelin and compared to other peptides, it is a much more stable form of ghrelin and has longer half-life periods of at least two hours long and causes secondary effect by making neurons to become excited.',
         ],
@@ -808,7 +799,7 @@ export const peptides = [
 export const orals = [
   {
     id: 1,
-    image: 'images/prod3.jpeg',
+    image: 'images/oral1.jpeg',
     nickName: 'Anavar',
     fullName: 'OXANDDROLONE',
     mg: '10 MG',
@@ -816,7 +807,7 @@ export const orals = [
       'An ideal anabolic for consumption by women seeking muscle mass quickly without virilizing side effects. It is also used by men, beginners or intermediates, who are looking for lean gains or who are in the cutting stages, because it does not stimulate fluid retention.',
     detail: [
       {
-        heading: 'OXANDDROLONE 10mg ',
+        heading: 'Description',
         description: [
           'An ideal anabolic for consumption by women seeking muscle mass quickly without virilizing side effects. It is also used by men, beginners or intermediates, who are looking for lean gains or who are in the cutting stages, because it does not stimulate fluid retention.',
         ],
@@ -829,7 +820,7 @@ export const orals = [
   },
   {
     id: 2,
-    image: 'images/prod3.jpeg',
+    image: 'images/oral2.jpeg',
     heading: 'Dianabol',
     nickName: 'Dianabol',
     fullName: 'Methandienone',
@@ -838,7 +829,7 @@ export const orals = [
       'It is an anabolic that has twice the capacity of testosterone to increase muscle mass. Increases the storage of creatine and consequently of intracellular fluids.',
     detail: [
       {
-        heading: 'Methandienone 10 mg',
+        heading: 'Description',
         description: [
           'It is an anabolic that has twice the capacity of testosterone to increase muscle mass.',
           'Increases the storage of creatine and consequently of intracellular fluids.',
@@ -852,7 +843,7 @@ export const orals = [
   },
   {
     id: 3,
-    image: 'images/prod3.jpeg',
+    image: 'images/oral3.jpeg',
     heading: 'Stanazol ',
     nickName: 'Stanazol',
     fullName: 'StanazolOL',
@@ -861,7 +852,7 @@ export const orals = [
       'It is ideal for use in women, since it does not have androgenic effects. You can use it for volume or muscle definition. Promotes rapid increase in muscle mass. Men use it because it has a low impact on the prostate, and it has a low capacity to produce estrogen.',
     detail: [
       {
-        heading: 'Stanazolol 10mg ',
+        heading: 'Description',
         description: [
           'It is ideal for use in women, since it does not have androgenic effects. You can use it for volume or muscle definition. Promotes rapid increase in muscle mass. Men use it because it has a low impact on the prostate, and it has a low capacity to produce estrogen.',
         ],
@@ -874,7 +865,7 @@ export const orals = [
   },
   {
     id: 4,
-    image: 'images/prod3.jpeg',
+    image: 'images/oral4.jpeg',
     heading: 'Cytomel- T3 25 mcg',
     nickName: 'Cytomel- T3',
     fullName: 'LIOTHYRONINE SODIUM',
@@ -883,7 +874,7 @@ export const orals = [
       'This is not an-anabolic steroid but a thyroid hormone. Bodybuilders are particularly attracted to this drug for its ability to burn off body excess fat. Most often utilized during contest preparation, one can greatly decrease the amount of stored fat without being forced to severely restrict calories. To this end Cytomex T350 is commonly used in conjunction with Clenbuterol and can produce extremely dramatic results. This combination has become very popular in recent years, no doubt responsible for many "ripped" on-stage physiques. It is also noted by many that when thyroid hormones are taken in conjunction with steroids, an increased anabolic effect can be seen (noticeably greater than if the steroids are used alone)',
     detail: [
       {
-        heading: 'LIOTHYRONINE SODIUM',
+        heading: 'Description',
         description: [
           'This is not an-anabolic steroid but a thyroid hormone. Bodybuilders are particularly attracted to this drug for its ability to burn off body excess fat. Most often utilized during contest preparation, one can greatly decrease the amount of stored fat without being forced to severely restrict calories. To this end Cytomex T350 is commonly used in conjunction with Clenbuterol and can produce extremely dramatic results. This combination has become very popular in recent years, no doubt responsible for many "ripped" on-stage physiques. It is also noted by many that when thyroid hormones are taken in conjunction with steroids, an increased anabolic effect can be seen (noticeably greater than if the steroids are used alone)',
         ],
@@ -896,7 +887,7 @@ export const orals = [
   },
   {
     id: 5,
-    image: 'images/prod3.jpeg',
+    image: 'images/oral5.jpeg',
     heading: 'Anadrol 50 mg',
     nickName: 'Anadrol',
     fullName: 'OXYMETHOLONE',
@@ -905,7 +896,7 @@ export const orals = [
       'Especially for men in the volume stage, ideal for increasing muscle mass, because it retains fluids due to the accumulation of creatine in the muscle, which generates power, hydration and recovery of muscle tissue',
     detail: [
       {
-        heading: 'OXYMETHOLONE',
+        heading: 'Description',
         description: [
           'Especially for men in the volume stage, ideal for increasing muscle mass, because it retains fluids due to the accumulation of creatine in the muscle, which generates power, hydration and recovery of muscle tissue',
         ],
@@ -918,7 +909,7 @@ export const orals = [
   },
   {
     id: 6,
-    image: 'images/prod3.jpeg',
+    image: 'images/oral6.jpeg',
     heading: 'Clen 40mcg ',
     nickName: 'Clen',
     fullName: 'Clenbuterol HCL',
@@ -927,7 +918,7 @@ export const orals = [
       'It favors the oxidation of fat and promotes the increase in muscle mass.',
     detail: [
       {
-        heading: 'Clenbuterol HCL 40 mcg.',
+        heading: 'Description',
         description: [
           'It favors the oxidation of fat and promotes the increase in muscle mass.',
         ],
