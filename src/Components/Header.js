@@ -21,8 +21,7 @@ const Header = () => {
   return (
     <header className='header'>
       <Link to='/' className='logo'>
-        {' '}
-        <span>iron</span>Horse{' '}
+        <img src="images/logo.png" alt="ironHorse"/>
       </Link>
 
       <div

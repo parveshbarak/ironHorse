@@ -30,6 +30,10 @@
   font-size: 3rem;
 }
 
+.header img {
+  height: 60px;
+}
+
 .header .logo span {
   color: #F2960D;
 }
@@ -75,7 +79,10 @@
     transform: rotate(180deg);
   }
   .header {
-    padding: 2rem;
+    padding: 1rem 2rem;
+  }
+  .header img {
+    height: 50px;
   }
   .header .navbar {
     position: absolute;
