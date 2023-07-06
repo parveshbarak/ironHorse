@@ -6,7 +6,7 @@ import Home from '../Components/Home'
 
 const AboutPage = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 500)
   }, [])
   return (
     <React.Fragment>

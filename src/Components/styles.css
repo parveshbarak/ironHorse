@@ -36,6 +36,20 @@
   color: #fff;
 }
 
+.header .navbar span {
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.header .navbar .notClicked {
+  display: none;
+  padding: 1.5rem 2rem;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
 .header .navbar a:hover {
   background: #F2960D;
 }
@@ -74,6 +88,16 @@
   .header .navbar a {
     display: block;
     font-size: 2rem;
+  }
+  .header .navbar span {
+    display: block;
+    font-size: 2rem;
+  }
+
+  .header .navbar .showProductType {
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-between;
   }
 }
 
