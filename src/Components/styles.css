@@ -1,5 +1,10 @@
 /** header style **/
 
+@font-face {
+  font-family: "Payback";
+  src: url("/public/PaybAck.ttf");
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -545,6 +550,8 @@
 }
 
 .products .box-container .box .content h2 {
+  font-family: "Payback";
+  letter-spacing: 0.2rem;
   font-size: 3rem;
   color: #fff;
   padding-top: 0.5rem;
@@ -613,6 +620,8 @@
 }
 
 .product-detail .box-container .box .content h1 {
+  font-family: "Payback";
+  letter-spacing: 0.2rem;
   font-size: 4rem;
   color: #F2960D;
   padding-top: 0.5rem;
