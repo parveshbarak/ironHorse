@@ -25,7 +25,7 @@ const Benifits = () => {
   return (
     <section className='benifits' id='benifits'>
       <h1 className='heading'>
-        <span>benifits</span>
+        <span>Highlights</span>
       </h1>
 
       <motion.div
@@ -41,8 +41,11 @@ const Benifits = () => {
           </div>
           <div className='content'>
             <img src='images/icon-1.png' alt='' />
-            <h3>body building</h3>
-            <p>THEY GO STRAIGHT TO THE MUSCLE AND BLOOD</p>
+            <h3>Super micronised winny</h3>
+            <p>
+              Iron horse winny is painless, smooth and easy to inject. There
+              will be no syringe blockage problem
+            </p>
           </div>
         </div>
 
@@ -52,9 +55,12 @@ const Benifits = () => {
           </div>
           <div className='content'>
             <img src='images/hey.none' alt='' />
-            <h3>Fast Action and Absorbtion</h3>
+            <h3>No lump problem </h3>
             <p>
-              It is easily absorbed by the body and is known for its fast action
+              All our injections are painless and smooth . Iron horse guarantees
+              you there will be no lump formation after injecting our projects .
+              Make sure to clean injection site with alcohol swap before
+              injecting
             </p>
           </div>
         </div>
@@ -65,8 +71,11 @@ const Benifits = () => {
           </div>
           <div className='content'>
             <img src='images/hey2.png' alt='' />
-            <h3>Easy Consuption</h3>
-            <p>It is Easy to consume</p>
+            <h3>From athletes to athletes </h3>
+            <p>
+              Iron horse winny is painless , smooth and easy to inject . There
+              will be no syringe blockage problem{' '}
+            </p>
           </div>
         </div>
       </motion.div>
