@@ -26,7 +26,12 @@ const Footer = () => {
               contact us
             </a>
           </div>
-
+          <div className='box'>
+          <h3>Address</h3>
+          <p>Vogelrute 43,</p>
+          <p>53879 Euskirchen</p>
+          <p>Germany</p>
+        </div>
           <Contact />
         </div>
       </section>
