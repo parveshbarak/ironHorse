@@ -715,3 +715,36 @@
   padding-left: 4rem;
   font-size: 2rem;
 }
+
+
+/* Real Fake css */
+
+.realFake .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.realFake .container .column {
+  float: left;
+  padding: 0 4px;
+  width: 50%;
+}
+
+.realFake .container .column img {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.realFake .container .column h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.realFake .container .column p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #f2960d;
+}
