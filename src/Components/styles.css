@@ -1,8 +1,8 @@
 /** header style **/
 
 @font-face {
-  font-family: "Payback";
-  src: url("/public/PaybAck.ttf");
+  font-family: 'Payback';
+  src: url('/public/PaybAck.ttf');
 }
 
 .header {
@@ -35,7 +35,7 @@
 }
 
 .header .logo span {
-  color: #F2960D;
+  color: #f2960d;
 }
 
 .header .navbar a {
@@ -60,7 +60,7 @@
 }
 
 .header .navbar a:hover {
-  background: #F2960D;
+  background: #f2960d;
 }
 
 #menu-btn {
@@ -137,7 +137,7 @@
 }
 
 .footer .box-container .box .links:hover {
-  color: #F2960D;
+  color: #f2960d;
 }
 
 .footer .box-container .box p {
@@ -148,7 +148,7 @@
 
 .footer .box-container .box p i {
   padding-right: 0.5rem;
-  color: #F2960D;
+  color: #f2960d;
 }
 
 .footer .box-container .box .share {
@@ -168,7 +168,7 @@
 }
 
 .footer .box-container .box .share a:hover {
-  background: #F2960D;
+  background: #f2960d;
 }
 
 .footer .box-container .box form .email {
@@ -191,7 +191,7 @@
 }
 
 .credit span {
-  color: #F2960D;
+  color: #f2960d;
 }
 
 /** Home Stying **/
@@ -226,7 +226,7 @@
 
 .home .slide .content span {
   font-size: 2rem;
-  color: #F2960D;
+  color: #f2960d;
   display: block;
 }
 
@@ -269,7 +269,7 @@
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #F2960D;
+  background: #f2960d;
 }
 
 /** Aboutus Styling **/
@@ -298,7 +298,7 @@
   content: '';
   position: absolute;
   z-index: -1;
-  background: #F2960D;
+  background: #f2960d;
   height: 15rem;
   width: 15rem;
 }
@@ -331,7 +331,7 @@
 
 .about .content span {
   font-size: 3rem;
-  color: #F2960D;
+  color: #f2960d;
 }
 
 .about .content .title {
@@ -343,7 +343,7 @@
 
 .about .content .title .c-name {
   font-size: 3rem;
-  color: #F2960D;
+  color: #f2960d;
   margin-top: 0.5rem;
   font-weight: 800;
 }
@@ -414,7 +414,7 @@
 
 .benifits .box-container .box .content h3 {
   font-size: 2rem;
-  color: #F2960D;
+  color: #f2960d;
 }
 
 .benifits .box-container .box .content p {
@@ -438,7 +438,7 @@
 
 .aunthenticity .information span {
   font-size: 2rem;
-  color: #F2960D;
+  color: #f2960d;
 }
 
 .aunthenticity .information h3 {
@@ -461,7 +461,7 @@
 
 .aunthenticity .information p i {
   padding-right: 1rem;
-  color: #F2960D;
+  color: #f2960d;
 }
 
 .aunthenticity .plan {
@@ -476,7 +476,7 @@
 .aunthenticity .plan h3 {
   font-size: 3.5rem;
   margin: 1rem 0;
-  color: #F2960D;
+  color: #f2960d;
 }
 
 .aunthenticity .plan .info p {
@@ -489,7 +489,7 @@
 .aunthenticity .plan .price {
   font-size: 5rem;
   font-weight: bolder;
-  color: #F2960D;
+  color: #f2960d;
 }
 
 .aunthenticity .plan .price span {
@@ -553,11 +553,11 @@
 
 .products .box-container .box .content span {
   font-size: 1.5rem;
-  color: #F2960D;
+  color: #f2960d;
 }
 
 .products .box-container .box .content h2 {
-  font-family: "Payback";
+  font-family: 'Payback';
   letter-spacing: 0.2rem;
   font-size: 3rem;
   color: #fff;
@@ -568,7 +568,7 @@
 
 .products .box-container .box .content h3 {
   font-size: 2rem;
-  color: #F2960D;
+  color: #f2960d;
   padding-top: 0.5rem;
   display: flex;
   justify-content: center;
@@ -623,14 +623,14 @@
 
 .product-detail .box-container .box .content span {
   font-size: 1.5rem;
-  color: #F2960D;
+  color: #f2960d;
 }
 
 .product-detail .box-container .box .content h1 {
-  font-family: "Payback";
+  font-family: 'Payback';
   letter-spacing: 0.2rem;
   font-size: 4rem;
-  color: #F2960D;
+  color: #f2960d;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
   display: flex;
@@ -677,8 +677,16 @@
 
 .product-detail .box-container .box .content .detail .d h3 {
   font-size: 2rem;
-  color: #F2960D;
+  color: #f2960d;
   display: block;
+}
+
+.product-detail .box-container .box .content .detail .dc h3 {
+  color: #f2960d;
+}
+
+.product-detail .box-container .box .content .detail .dc p {
+  text-align: center;
 }
 
 /* Toast css */
@@ -690,7 +698,7 @@
 /* Real Fake header */
 
 .realFakeHeader {
-  background-color: #F2960D;
+  background-color: #f2960d;
 }
 
 .realFakeHeader span {

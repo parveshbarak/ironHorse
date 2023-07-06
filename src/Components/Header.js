@@ -15,13 +15,12 @@ const Header = () => {
   const handleClick = (e) => {
     menuClick()
     productsClick()
-
   }
 
   return (
     <header className='header'>
       <Link to='/' className='logo'>
-        <img src="images/logo.png" alt="ironHorse"/>
+        <img src={window.location.origin + '/images/logo.png'} alt='ironHorse' />
       </Link>
 
       <div

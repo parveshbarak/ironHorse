@@ -13,21 +13,27 @@ const ProductDetail = ({ type, id }) => {
       </h1>
       <div className='box-container'>
         <div className='box box1'>
-          <img src={`../`+arr[id-1].image} alt='' />
+          <img src={`../` + arr[id - 1].image} alt='' />
         </div>
         <div className='box box2'>
           <div className='content'>
-            <h1>{arr[id-1].nickName}</h1>
-            <h3>{arr[id-1].fullName} - {arr[id-1].mg}</h3>
-            <div className="detail">
-            {arr[id-1].detail.map((d) => {
-              return(<div className="d">
-              <h3>{d.heading}</h3>
-              <div>{d.description.map((ad) => {
-                return(<p>{ad}</p>)
-              })}</div>
-              </div>)
-            })}
+            <h1>{arr[id - 1].nickName}</h1>
+            <h3>
+              {arr[id - 1].fullName} - {arr[id - 1].mg}
+            </h3>
+            <div className='detail'>
+              {arr[id - 1].detail.map((d) => {
+                return (
+                  <div className={d.heading === 'Composition' ? 'dc' : 'd'}>
+                    <h3>{d.heading}</h3>
+                    <div>
+                      {d.description.map((ad) => {
+                        return <p>{ad}</p>
+                      })}
+                    </div>
+                  </div>
+                )
+              })}
             </div>
           </div>
         </div>
@@ -37,6 +43,5 @@ const ProductDetail = ({ type, id }) => {
 }
 
 export default ProductDetail
-
 
 //scroll down on products
