@@ -16,8 +16,8 @@ const Footer = () => {
             <Link to='/about' className='links'>
               about us
             </Link>
-            <Link to='/products' className='links'>
-              products
+            <Link to='/realFake' className='links'>
+              Real vs Fake
             </Link>
             <Link to='/authenticity' className='links'>
               check authenticity

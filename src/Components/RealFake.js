@@ -10,12 +10,12 @@ const RealFake = () => {
         <div className='row'>
           <div className='column'>
           <img src= '/images/f-img-1.jpg' alt = "hello1"/>
-          <h3>Real ironHorse</h3>
+          <h3>Real ironHorse <i class="fa fa-check fa-lg" style={{color:'green'}} aria-hidden="true"></i> </h3>
           <p>here comes the blah blah blah description</p>
           </div>
           <div className='column'>
           <img src= '/images/f-img-2.jpg' alt = "hello1"/>
-          <h3>Fake ironHorse</h3>
+          <h3>Real ironHorse <i class="fa fa-times fa-lg" style={{color:'red'}} aria-hidden="true"></i> </h3>
           <p>here comes the blah blah blah description</p>
           </div>
         </div>
@@ -24,12 +24,12 @@ const RealFake = () => {
         <div className='row'>
           <div className='column'>
           <img src= '/images/f-img-1.jpg' alt = "hello1"/>
-          <h3>Real ironHorse</h3>
+          <h3>Real ironHorse <i class="fa fa-check fa-lg" style={{color:'green'}} aria-hidden="true"></i> </h3>
           <p>here comes the blah blah blah description</p>
           </div>
           <div className='column'>
           <img src= '/images/f-img-2.jpg' alt = "hello1"/>
-          <h3>Fake ironHorse</h3>
+          <h3>Real ironHorse <i class="fa fa-times fa-lg" style={{color:'red'}} aria-hidden="true"></i> </h3>
           <p>here comes the blah blah blah description</p>
           </div>
         </div>
@@ -38,12 +38,12 @@ const RealFake = () => {
         <div className='row'>
           <div className='column'>
           <img src= '/images/f-img-1.jpg' alt = "hello1"/>
-          <h3>Real ironHorse</h3>
+          <h3>Real ironHorse <i class="fa fa-check fa-lg" style={{color:'green'}} aria-hidden="true"></i> </h3>
           <p>here comes the blah blah blah description</p>
           </div>
           <div className='column'>
           <img src= '/images/f-img-2.jpg' alt = "hello1"/>
-          <h3>Fake ironHorse</h3>
+          <h3>Real ironHorse <i class="fa fa-times fa-lg" style={{color:'red'}} aria-hidden="true"></i> </h3>
           <p>here comes the blah blah blah description</p>
           </div>
         </div>
@@ -52,12 +52,12 @@ const RealFake = () => {
         <div className='row'>
           <div className='column'>
           <img src= '/images/f-img-1.jpg' alt = "hello1"/>
-          <h3>Real ironHorse</h3>
+          <h3>Real ironHorse <i class="fa fa-check fa-lg" style={{color:'green'}} aria-hidden="true"></i> </h3>
           <p>here comes the blah blah blah description</p>
           </div>
           <div className='column'>
           <img src= '/images/f-img-2.jpg' alt = "hello1"/>
-          <h3>Fake ironHorse</h3>
+          <h3>Real ironHorse <i class="fa fa-times fa-lg" style={{color:'red'}} aria-hidden="true"></i> </h3>
           <p>here comes the blah blah blah description</p>
           </div>
         </div>

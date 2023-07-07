@@ -53,6 +53,9 @@ const Header = () => {
             Peptides
           </Link>
         </span>
+        <Link to='/realFake' onClick={menuClick}>
+          Real vs Fake
+        </Link>
         <Link to='/authenticity' onClick={menuClick}>
           check aunthenticity
         </Link>
