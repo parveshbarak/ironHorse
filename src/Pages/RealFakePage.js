@@ -6,7 +6,7 @@ import RealFake from '../Components/RealFake'
 
 const RealFakePage = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 500)
   }, [])
   return (
     <React.Fragment>
