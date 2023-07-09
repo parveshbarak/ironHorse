@@ -736,6 +736,13 @@
   text-align: center;
 }
 
+.realFake h2 {
+  color: #f2960d;
+  font-size: large;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
 .realFake .container .row {
   display: flex;
   flex-wrap: wrap;

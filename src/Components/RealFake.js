@@ -6,6 +6,8 @@ const RealFake = () => {
       <h1 className='heading'>
         <span>Real vs Fake</span>
       </h1>
+      <h2>Find here, How to identify some differences between Real ironHorse and fake.</h2>
+      <h2> Always Pay attention and use ourauthenticity Tool to make sure you are using 100% orignal and safe product</h2>
       <div className='container extra-mg'>
         <h1>Authenticity Code</h1>
         <div className='row'>
