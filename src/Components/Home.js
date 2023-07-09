@@ -26,17 +26,14 @@ const Home = () => {
             <Slide
               slide_number='slide1'
               prod_number='prod1'
-              text='2 Orals + 2 Peptides'
             />
             <Slide
               slide_number='slide2'
               prod_number='prod2'
-              text='4 Oral Assets'
             />
             <Slide
               slide_number='slide3'
               prod_number='prod3'
-              text='4 Vials Assets'
             />
           </Fade>
         </div>
