@@ -25,7 +25,7 @@ const About = () => {
   return (
     <section className='about' id='about'>
       <div className='image'>
-        <img src='images/about-img.jpg' alt='' />
+        <img src='images/prod1.jpeg' alt='' />
       </div>
       <motion.div
         className='content'
@@ -53,7 +53,7 @@ const About = () => {
         initial='hidden'
         animate={control}
       >
-        <img src='images/prod1.png' alt='' />
+        <img src='images/prod2.jpeg' alt='' />
       </motion.div>
       <div className='content'>
         <h3 className='title'>
