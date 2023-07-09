@@ -29,7 +29,7 @@ const Home = () => {
             />
             <Slide
               slide_number='slide2'
-              prod_number='prod2'
+              prod_number='prod4'
             />
             <Slide
               slide_number='slide3'
