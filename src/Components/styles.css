@@ -722,6 +722,20 @@
 
 /* Real Fake css */
 
+.realFake .container {
+  margin-bottom: 2rem;
+}
+
+.realFake .extra-mg {
+  margin-bottom: 6rem;
+}
+
+.realFake .container h1 {
+  color: #fff;
+  font-size: x-large;
+  text-align: center;
+}
+
 .realFake .container .row {
   display: flex;
   flex-wrap: wrap;
