@@ -53,7 +53,7 @@ const About = () => {
         initial='hidden'
         animate={control}
       >
-        <img src='images/prod2.jpeg' alt='' />
+        <img src='images/prod2.png' alt='' />
       </motion.div>
       <div className='content'>
         <h3 className='title'>
