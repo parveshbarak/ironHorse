@@ -51,7 +51,7 @@ const Authenticity = () => {
         animate={control}
       >
         <h3>test authenticity of your product!</h3>
-        <img src='images/prod1.png' alt='prod1' />
+        <img src='images/h2.jpeg' alt='prod1' />
       </motion.div>
 
       <div className='plan basic'>

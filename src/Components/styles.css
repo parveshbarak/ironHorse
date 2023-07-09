@@ -440,6 +440,10 @@
   margin-bottom: 4rem;
 }
 
+.aunthenticity .information {
+  height: 52rem;
+}
+
 .aunthenticity .information span {
   font-size: 2rem;
   color: #f2960d;
@@ -719,7 +723,6 @@
   padding-left: 4rem;
   font-size: 2rem;
 }
-
 
 /* Real Fake css */
 
