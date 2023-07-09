@@ -769,7 +769,7 @@ export const peptides = [
   },
   {
     id: 8,
-    image: 'images/pep7.jpeg',
+    image: 'images/pep8.jpeg',
     nickName: 'Ipamorelin',
     fullName: '',
     mg: '2mg*5 vial',
