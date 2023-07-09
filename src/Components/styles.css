@@ -378,13 +378,17 @@
   background: #111;
 }
 
+.benifits .box-container .second {
+  margin-top: 5rem;
+}
+
 .benifits .box-container .box:hover .image img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
 .benifits .box-container .box .image {
-  height: 30rem;
+  height: 50rem;
   width: 100%;
   overflow: hidden;
 }
