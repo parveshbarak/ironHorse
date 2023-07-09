@@ -77,7 +77,7 @@ const RealFake = () => {
           </div>
         </div>
       </div>
-      <div className='container extra-mg'>
+      <div className='container'>
         <h1>Dosage Strength</h1>
         <div className='row'>
           <div className='column'>
@@ -107,6 +107,39 @@ const RealFake = () => {
             </h3>
             <p>
               Counterfeit Winny is labeled with a dosage strength of 250mg/ml.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className='container extra-mg'>
+        <div className='row'>
+          <div className='column'>
+            <img src='/images/real5.jpeg' alt='hello1' />
+            <h3>
+              Real ironHorse{' '}
+              <i
+                class='fa fa-check fa-lg'
+                style={{ color: 'green' }}
+                aria-hidden='true'
+              ></i>{' '}
+            </h3>
+            <p>
+              Genuine Dianabol (IronHorse Orignal) has a verified dosage strength
+              of 10mg/tab.
+            </p>
+          </div>
+          <div className='column'>
+            <img src='/images/fake5.jpeg' alt='hello1' />
+            <h3>
+              Fake ironHorse{' '}
+              <i
+                class='fa fa-times fa-lg'
+                style={{ color: 'red' }}
+                aria-hidden='true'
+              ></i>{' '}
+            </h3>
+            <p>
+              Counterfeit Winny is labeled with a dosage strength of 100tabs/box.
             </p>
           </div>
         </div>
