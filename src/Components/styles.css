@@ -759,6 +759,7 @@
 .realFake .container .column img {
   margin-top: 8px;
   width: 100%;
+  height: 70%;
 }
 
 .realFake .container .column h3 {
