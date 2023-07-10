@@ -42,8 +42,7 @@ const Benifits = () => {
           <div className='content'>
             <h3>Super micronised winny</h3>
             <p>
-              Iron horse winny is painless, smooth and easy to inject. There
-              will be no syringe blockage problem
+            Experience the ease with Iron Horse Winny: painless, smooth injections without any syringe blockage issues.
             </p>
           </div>
         </div>
@@ -55,10 +54,7 @@ const Benifits = () => {
           <div className='content'>
             <h3>No lump problem </h3>
             <p>
-              All our injections are painless and smooth . Iron horse guarantees
-              you there will be no lump formation after injecting our projects .
-              Make sure to clean injection site with alcohol swap before
-              injecting
+            Our product features painless and smooth injections, with guaranteed no lump formation. Remember to clean the injection site with an alcohol swap before administering.
             </p>
           </div>
         </div>

@@ -191,7 +191,7 @@ const RealFake = () => {
         <h1>Product Labeling</h1>
         <div className='row'>
           <div className='column'>
-            <img src='/images/real4.jpeg' alt='hello1' />
+            <img src='/images/real5.jpeg' alt='hello1' />
             <h3>
               Real ironHorse{' '}
               <i
@@ -206,7 +206,7 @@ const RealFake = () => {
             </p>
           </div>
           <div className='column'>
-            <img src='/images/fake4.jpeg' alt='hello1' />
+            <img src='/images/fake5.jpeg' alt='hello1' />
             <h3>
               Fake ironHorse{' '}
               <i
@@ -235,8 +235,8 @@ const RealFake = () => {
               ></i>{' '}
             </h3>
             <p>
-              Genuine ANADROL (IronHorse Orignal) has a verified dosage strength
-              of 10mg/tab.
+              Genuine ANADROL (IronHorse Orignal) is correctly labeled as
+              "ANADROL," with the proper spelling.
             </p>
           </div>
           <div className='column'>
