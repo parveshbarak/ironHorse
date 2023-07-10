@@ -743,6 +743,21 @@
   margin-bottom: 5rem;
 }
 
+.realFake h2 .white {
+  color: #fff;
+  font-size: large;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.realFake h2 .red {
+  color: red;
+  font-size: large;
+  text-align: center;
+  margin-bottom: 7rem;
+  font-family: 'Payback';
+}
+
 .realFake .container .row {
   display: flex;
   flex-wrap: wrap;

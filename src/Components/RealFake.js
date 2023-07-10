@@ -327,6 +327,7 @@ const RealFake = () => {
           </div>
         </div>
       </div>
+      <h2><span className='red'>Caution:</span> Only use genuine Ironhorse products with a scratch code.<span className='white'> Fake products can lead to permanent liver and kidney damage, </span>not to mention being a waste of money.</h2>
     </section>
   )
 }
